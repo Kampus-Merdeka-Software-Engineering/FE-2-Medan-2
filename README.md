@@ -25,29 +25,29 @@ xxx dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 
 <img src="img" width="350px" height="200px" align="center" />
 
-- **Description page 1**: xxx memiliki tampilan yang profesional, dinamis, dan responsif untuk memastikan pengalaman akses web XGrow yang optimal.
+- **Description page 1**: This is for description page.
 
 <img src="img" width="350px" height="200px" align="center" />
 
-- **Description page 2**: XGrow menyediakan berbagai macam kursus, yang terbagi menjadi 2 yaitu program unggulan dan program baru. Keduanya dari API XGrow berbeda.
+- **Description page 2**: This is for description page.
 
 <img src="img" width="350px" height="200px" align="center" />
 
-- **Description page 3**: XGrow menyediakan formulir kontak dan berlangganan yang memungkinkan pengguna untuk memberikan pesan kepada XGrow.
+- **Description page 3**: This is for description page.
 
 <img src="img" width="350px" height="200px" align="center" />
 
-- **Description page 4**: XGrow mempermudah pendataan kursus awal dengan fitur Auto Kode Generate, yang nanti dikirim ke Endpoint API untuk di panggil ke cek status pendataan.
+- **Description page 4**: This is for description page.
 
 <img src="img" width="350px" height="200px" align="center" />
 
-- **Description page 5**: Pengguna dapat dengan mudah memeriksa status pendataan kursus dengan menggunakan kode kursus yang diberikan.
+- **Description page 5**: This is for description page.
 
 <br>
 
 ## 🌐 Link xxx Final Project
 
-Di bawah ini dua link untuk menuju ke hasil project final XGrow:
+Below is the link to the final project:
 
 | Website              | Link                                               | Keterangan                                                                            |
 |----------------------|----------------------------------------------------|---------------------------------------------------------------------------------------|
@@ -58,7 +58,7 @@ Di bawah ini dua link untuk menuju ke hasil project final XGrow:
 
 ##  Tim 2 Section Medan
 XXX adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Group 2 Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ). 
-<br> Berikut tim perancang dan pengembang XGrow:
+<br> Berikut tim perancang dan pengembang XXX:
 
 | Nama                   | Role                      |
 |------------------------|---------------------------|
@@ -81,7 +81,7 @@ Berikut merupakan link ke halaman Security Policy (kebijakan keamanan) dan Licen
 
 | Menuju Halaman                                           | Keterangan                                   |
 |------------------------------------------------------|----------------------------------------------|
-| [Security Policy](https://github.com) | Kebijakan keamanan proyek XGrow.            |
+| [Security Policy](https://github.com) | Kebijakan keamanan proyek XXX.            |
 | [License](https://github.com)           | Lisensi yang berlaku untuk proyek XXX.    |
 
 <br>
