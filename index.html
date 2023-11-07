@@ -4,93 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WanToGo Travel Services</title>
+    <!-- font awesome cdn link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link -->
+
+    <link rel="stylesheet" href="/style.css">
+
 </head>
 <body>
-test
+<!-- Header section starts -->
 
-<!-- login section starts -->
-<div class="login-form-container">
+<header>
+    <a href="#" class="logo"><span>w</span>an<span>t</span>o<span>g</span>o<img src="" alt="logo WanToGo"></a>
 
-    <i class="fas fa-times" id="form-close"></i>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#service">Service</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#aboutus">About Us</a>
+    </nav>
 
-    <form action="">
-        <h3>login</h3>
-        <input type="email" class="box" placeholder="enter your email">
-        <input type="password" class="box" placeholder="enter your password">
-        <input type="submit" value="login now" class="btn">
-        <input type="checkbox" id="remember">
-        <label for="remember">remember me</label>
-        <p>forget password? <a href="#">click here</a></p>
-        <p>don't have and account? <a href="#">register now</a></p>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="text" id="search-bar" placeholder="search here 🔍">
+        <label for="search-bar" class="fas fa-search"></label>
     </form>
-</div>
-<!-- login section ends -->
 
-<!-- Home section starts -->
-<section class="home" id="home">
+</header>
 
-    <div class="content">
-        <h3>adventure is worthwhiles</h3>
-        <p>discover new place with us, adventure awaits</p>
-        <a href="#" class="btn">discover more</a>
-    </div>
-
-    <div class="controls">
-        <span class="vid-btn active" data-src="images/#.mp4"></span>
-        <span class="vid-btn" data-src="images/#"></span>
-        <span class="vid-btn" data-src="images/#"></span>
-        <span class="vid-btn" data-src="images/#"></span>
-        <span class="vid-btn" data-src="images/#"></span>
-    </div>
-
-    <div class="video-container">
-        <video src="images/#.mp4" id="video-slinder" loop autoplay muted></video>
-    </div>
-</section>
-<!-- Home section ends -->
-
-<!-- Section book starts -->
-<section class="book" id="book">
-
-    <h1 class="heading">
-        <span>b</span>
-        <span>o</span>
-        <span>o</span>
-        <span>k</span>
-        <span class="space"></span>
-        <span>n</span>
-        <span>o</span>
-        <span>w</span>
-    </h1>
-
-    <div class="row">
-
-        <div class="image">
-            <img src="images/#" alt="">
-        </div>
-
-        <form action="">
-            <div class="inputBox">
-                <h3>where to</h3>
-                <input type="text" placeholder="place name">
-            </div>
-            <div class="inputBox">
-                <h3>how many</h3>
-                <input type="number" placeholder="number of guests">
-            </div>
-            <div class="inputBox">
-                <h3>arrivals</h3>
-                <input type="date">
-            </div>
-            <div class="inputBox">
-                <h3>leaving</h3>
-                <input type="date">
-            </div>
-            <input type="submit" class="btn" value="book now">
-        </form>
-    </div>
-</section>
-<!-- Section book ends -->
+<!-- Header section ends -->
 
 <!-- Service section starts -->
 <section class="services" id="services">
@@ -324,7 +274,8 @@ test
 
 <!-- Gallery and Review section ends -->
 
-
+<!-- custom js file link -->
+<script src="/script.js"></script>
 
 </body>
 </html>
