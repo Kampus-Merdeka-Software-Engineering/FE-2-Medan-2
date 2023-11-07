@@ -27,48 +27,118 @@ html{
     scroll-behavior: smooth;
 }
 
-.container{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
-
+section{
+    padding: 2rem 9%;
 }
 
-.navbar{
-    height: 12%;
-    display: flex;
-    align-items: center;
+header {
+display: inline;
 }
 
-.logo{
-    width: 150px;
-    cursor: pointer;
+nav {
+box-shadow: 0 0 5px black;
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+padding: 10px 20px;
+}
+
+.logo {
+width: 100px;
+}
+
+nav ul {
+padding-right: 10px;
+list-style: none;
+display: flex;
+gap: 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+nav ul li a:hover {
+color: #f0cd06;
+font-weight: bold;
 }
 
 .menu-icon{
-    width: 30px;
-    cursor: pointer;
-    margin-left: 40px;
+width: 30px;
+cursor: pointer;
+margin-left: 40px;
 }
 
-nav{
-    flex: 1;
-    text-align: right;
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
 }
 
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 60px;
+.home .content{
+    text-align: center;
 }
 
-nav ul li a{
-    text-decoration: none;
+.home .content h3{
+    font-size: 4.5rem;
     color: #fff;
-    font-size: 13px;
+    text-transform: uppercase;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
+}
+
+.home .content p{
+    font-size: 2.5rem;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--orange);
+    color: #fff;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+}
+
+.home .video-container video{
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home .controls{
+    padding: 1rem;
+    border-radius: 5rem;
+    background: rgba(0, 0, 0, .7);
+    top: 10rem;
+}
+
+.home .controls .vid-btn{
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin: 0 .5rem;
 }

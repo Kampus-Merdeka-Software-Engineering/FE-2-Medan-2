@@ -17,25 +17,67 @@
 
 </head>
 <body>
+
 <!-- Header section starts -->
-<div class="container">
-    <div class="navbar">
-        <img src="/assets/logo/WanToGo.png" alt="logo WanToGo" class="logo">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#book">Book</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#aboutus">About Us</a></li>
-            </ul>
-        </nav>
-        <img src="/assets/menu-icon/menu.png" alt="menu" class="menu-icon">
-    </div>
-</div>
+
+<header>
+    <nav>
+      <div class="logo">
+        <img src="/assets/logo/WanToGo.png" width="100%" alt="" />
+      </div>
+      <ul class="nav-link">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#book">Book</a>
+        </li>
+        <li>
+          <a href="#service">Service</a>
+        </li>
+        <li>
+          <a href="#portofolio">Gallery</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#aboutus">About Us</a>
+        </li>
+      </ul>
+      <img src="/assets/menu-icon/menu.png" alt="menu" class="menu-icon">
+    </nav>
+    <div class="banner"></div>
+    
+  </header>
 
 <!-- Header section ends -->
+
+<!-- Home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>discover your adventure!</h3>
+        <p>Make Every Journey Meaningful with WanToGo!</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+    
+    <div class="controls">
+        <span class="vid-btn" data-src="/assets/video/video 5.mp4"></span>
+        <span class="vid-btn" data-src="/assets/video/video 4.mp4"></span>
+        <span class="vid-btn" data-src="/assets/video/video 3.mp4"></span>
+        <span class="vid-btn" data-src="/assets/video/video 2.mp4"></span>
+        <span class="vid-btn" data-src="/assets/video/video 1.mp4"></span>
+
+        <div class="video-container">
+            <video src="/assets/video/video 5.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </div>
+
+</section>
+
+<!-- Home section ends  -->
 
 <!-- Service section starts -->
 <section class="services" id="services">
@@ -53,7 +95,7 @@
     <div class="box-container">
         
         <div class="box">
-            <i class="fa-solid fa-hotel" style="color: #f2eb0d;"></i>
+            <i class="fa-solid fa-hotel" style="color: #f2eb07;"></i>
             <h3>affordable hotels</h3>
             <p>It is simple, quick, and affordable to book hotels. The hotel you need is easy to find—all you have to do is touch it.</p>
         </div>
