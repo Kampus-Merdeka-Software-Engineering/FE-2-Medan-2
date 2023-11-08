@@ -31,6 +31,23 @@ section{
     padding: 2rem 9%;
 }
 
+.heading{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.heading span{
+    font-size: 3.5rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+
+.heading span.space{
+    background: none;
+}
+
 header {
 display: inline;
 }
@@ -141,4 +158,73 @@ margin-left: 40px;
     background: #fff;
     cursor: pointer;
     margin: 0 .5rem;
+}
+
+.home .controls .vid-btn .active{
+    background: var(--orange);
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: #FFC700;
+    box-shadow: -22px 28px 7px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* media queries */
+
+@media(max-width: 1200px){
+
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 991px){
+
+    header{
+        padding: 2rem;
+    }
+
+    section{
+        padding: 2rem;
+    }
+}
+
+@media(max-width: 768px){
+
+    #menu-bar{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #333;
+        border-top: .1rem solid rgba(255, 255, 255, .2);
+        padding: 1rem 2rem;
+    }
+
+    header .navbar li a{
+        display: block;
+        border-radius: .5rem;
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        background: #222;
+
+    }
+}
+
+@media(max-width: 450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .heading span{
+        font-size: 2.5rem;
+    }
 }
