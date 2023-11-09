@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+
+    <!-- custom css file link -->
+
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <!-- custom js file link -->
+
+    <script src="/js/script.js"></script>
+
+    <!-- icon website -->
+    
+    <link rel="icon" href="/assets/logo/WanToGo.png">
+
+    <!-- telephone cdn link -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+</head>
+<body>
+
+<!-- Header starts -->
+
+<header>
+    <nav>
+      <div class="logo">
+        <img src="/assets/logo/WanToGo.png" width="100%" alt="" />
+      </div>
+      <ul class="navbar">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#book">Book</a>
+        </li>
+        <li>
+          <a href="#service">Service</a>
+        </li>
+        <li>
+          <a href="#portofolio">Gallery</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a href="#aboutus">About Us</a>
+        </li>
+      </ul>
+      <img src="/assets/menu-icon/menu.png" alt="menu" class="menu-icon" id="menu-bar">
+    </nav>
+    <div class="banner"></div>
+    
+  </header>
+
+<!-- Header ends -->
+
+    <!-- Book section starts -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <form action="" autocomplete="on">
+        <div class="inputbox">
+            <h3>name</h3>
+            <input type="text" id="name" name="name" placeholder="input your name here" minlength="2" required>
+        </div>
+        <div class="inputbox">
+            <h3>where to</h3>
+            <select name="where-to" id="where-to" required>
+                <option value="">Select your destination</option>
+                <option value="bali">bali</option>
+                <option value="padar-island">padar island</option>
+                <option value="borobudur-temple">borobudur temple</option>
+                <option value="mount-bromo">mount bromo</option>
+                <option value="raja-ampat-island">raja ampat island</option>
+                <option value="tumpak-sewu-waterfall">tumpak sewu waterfall</option>
+                <option value="lake-kelimutu">lake kelimutu</option>
+                <option value="ijen-carter">ijen carter</option>
+                <option value="mount-rinjani">mount rinjani</option>
+            </select>
+        </div>
+        <div class="inputbox">
+            <h3>email</h3>
+            <input type="email" id="email" name="email" placeholder="input your email here" required>
+        </div>
+        <div class="inputbox">
+            <h3>how many</h3>
+            <input type="number" name="quantity" id="quantity" placeholder="input number of people" required>
+        </div>
+        <div class="inputbox">
+            <h3>phone</h3>
+            <input type="tel" id="phone" name="phone" placeholder="input your phone here" required>
+        </div>
+        <div class="inputbox">
+            <h3>arrivals</h3>
+            <input type="datetime-local" required>
+        </div>
+        <div class="inputbox">
+            <h3>message</h3>
+            <textarea name="message" id="message" cols="40" rows="5" placeholder="input your message here"></textarea>
+        </div>
+        <div class="inputbox">
+            <h3>leaving</h3>
+            <input type="datetime-local" required>
+        </div>
+        <div class="submit-btn">
+            <button class="btn">
+                book now
+            </button>
+        </div>
+        
+    </form>
+
+</section>
+
+<!-- Book section ends -->
+
+</body>
+</html>
