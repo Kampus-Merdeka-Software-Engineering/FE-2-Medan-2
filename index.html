@@ -13,10 +13,6 @@
 
     <link rel="stylesheet" href="/css/style.css">
 
-    <!-- custom js file link -->
-
-    <script src="/script.js"></script>
-
     <!-- icon website -->
 
     <link rel="icon" href="/assets/logo/WanToGo.png">
@@ -232,101 +228,6 @@
 
 <!-- Gallery section ends -->
 
-<!-- Review section starts -->
-
-<section class="review" id="review">
-
-    <h1 class="heading">
-        <span>r</span>
-        <span>e</span>
-        <span>v</span>
-        <span>i</span>
-        <span>e</span>
-        <span>w</span>
-    </h1>
-
-    <div class="review-slider">
-
-        <div class="wrapper">
-
-            <div class="slider">
-                <div class="box">
-                    <img src="1" alt="">
-                    <h3>alen</h3>
-                    <p>abcdefgh</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="box">
-                    <img src="2" alt="">
-                    <h3>alen</h3>
-                    <p>abcdefgh</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="box">
-                    <img src="3" alt="">
-                    <h3>alen</h3>
-                    <p>abcdefgh</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="box">
-                    <img src="4" alt="">
-                    <h3>alen</h3>
-                    <p>abcdefgh</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="slider">
-                <div class="box">
-                    <img src="5" alt="">
-                    <h3>alen</h3>
-                    <p>abcdefgh</p>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                </div>
-            </div>
-    </div>
-
-</section>
-
-<!-- Reviews section ends -->
-
-<!-- Gallery and Review section ends -->
-
 <!-- Footer section starts -->
 
 <footer class="footer">
@@ -373,5 +274,36 @@
 
 <!-- Footer section ends -->
 
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<script>
+    var slider = new  Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        breakpoints: {  
+        '480': {
+        slidesPerView: 2,
+        spaceBetween: 40,},
+        '640': {
+        slidesPerView: 3,
+        spaceBetween: 50, },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 2000,
+        }
+    })
+</script>
+
 </body>
+
 </html>
