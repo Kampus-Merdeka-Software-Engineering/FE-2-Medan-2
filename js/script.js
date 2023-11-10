@@ -6,3 +6,13 @@ const phoneInputField = document.querySelector("#phone");
 
 // Review slide
 
+$(document).ready(function(){
+  $('.carousel').carousel({
+    padding: 200
+});
+autoplay();
+function autoplay() {
+  $('.carousel').carousel('next');
+  setTimeout(autoplay, 4500);
+}
+});
