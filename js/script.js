@@ -15,4 +15,19 @@ const phoneInput = window.intlTelInput(phoneInputField, {
     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
 });
 
-// Review slide
+// Redirect to book section
+
+let book_url = document.getElementById("book_url");
+
+book_url.addEventListener("click", () => {
+  window.location.href = "book-ticket.html";
+})
+
+document.getElementById("book").onclick = 
+  function () {
+    window.location.href = "book.html";
+  }
+
+
+// Redirect from book section to check ticket section
+

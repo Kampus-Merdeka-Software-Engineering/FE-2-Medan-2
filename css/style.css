@@ -292,6 +292,10 @@ textarea{
     text-align: center;
 }
 
+.submit-ticket-btn button{
+    text-transform: uppercase;
+}
+
 /* Service section */
 
 .services .box-container{
