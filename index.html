@@ -1,75 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WanToGo Travel Services</title>
 
     <!-- font awesome cdn link -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- custom css file link -->
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
 
     <!-- icon website -->
 
-    <link rel="icon" href="/assets/logo/WanToGo.png">
+    <link rel="icon" href="/assets/logo/WanToGo.png" />
+
+    <!-- external css file link for font awesome icon -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
 
     <!-- footer cdn link -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header section starts -->
 
-</head>
-<body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/assets/logo/WanToGo.png" width="100%" alt="" />
+        </div>
+        <ul class="navbar">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#book">Book</a>
+          </li>
+          <li>
+            <a href="#service">Service</a>
+          </li>
+          <li>
+            <a href="#portofolio">Gallery</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+          <li>
+            <a href="#aboutus">About Us</a>
+          </li>
+        </ul>
+        <img
+          src="/assets/menu-icon/menu.png"
+          alt="menu"
+          class="menu-icon"
+          id="menu-bar"
+        />
+      </nav>
+      <div class="banner"></div>
+    </header>
 
-<!-- Header section starts -->
+    <!-- Header section ends -->
 
-<header>
-    <nav>
-      <div class="logo">
-        <img src="/assets/logo/WanToGo.png" width="100%" alt="" />
-      </div>
-      <ul class="navbar">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#book">Book</a>
-        </li>
-        <li>
-          <a href="#service">Service</a>
-        </li>
-        <li>
-          <a href="#portofolio">Gallery</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <li>
-          <a href="#aboutus">About Us</a>
-        </li>
-      </ul>
-      <img src="/assets/menu-icon/menu.png" alt="menu" class="menu-icon" id="menu-bar">
-    </nav>
-    <div class="banner"></div>
-    
-  </header>
+    <!-- Home section starts  -->
 
-<!-- Header section ends -->
-
-<!-- Home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="content">
+    <section class="home" id="home">
+      <div class="content">
         <h3>discover your adventure</h3>
         <p>Make Every Journey Meaningful with WanToGo!</p>
         <a href="#" class="btn">discover more</a>
-    </div>
-    
-    <div class="controls">
+      </div>
+
+      <div class="controls">
         <span class="vid-btn" data-src="/assets/video/video 5.mp4"></span>
         <span class="vid-btn" data-src="/assets/video/video 4.mp4"></span>
         <span class="vid-btn" data-src="/assets/video/video 3.mp4"></span>
@@ -77,17 +94,22 @@
         <span class="vid-btn" data-src="/assets/video/video 1.mp4"></span>
 
         <div class="video-container">
-            <video src="/assets/video/video 5.mp4" id="video-slider" loop autoplay muted></video>
+          <video
+            src="/assets/video/video 5.mp4"
+            id="video-slider"
+            loop
+            autoplay
+            muted
+          ></video>
         </div>
-    </div>
+      </div>
+    </section>
 
-</section>
+    <!-- Home section ends  -->
 
-<!-- Home section ends  -->
-
-<!-- Service section starts -->
-<section class="services" id="services">
-    <h1 class="heading">
+    <!-- Service section starts -->
+    <section class="services" id="services">
+      <h1 class="heading">
         <span>s</span>
         <span>e</span>
         <span>r</span>
@@ -96,52 +118,68 @@
         <span>c</span>
         <span>e</span>
         <span>s</span>
-    </h1>
+      </h1>
 
-    <div class="box-container">
-        
+      <div class="box-container">
         <div class="box">
-            <i class="fa-solid fa-hotel"></i>
-            <h3>affordable hotels</h3>
-            <p>It is simple, quick, and affordable to book hotels. The hotel you need is easy to find—all you have to do is touch it.</p>
+          <i class="fa-solid fa-hotel"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            It is simple, quick, and affordable to book hotels. The hotel you
+            need is easy to find—all you have to do is touch it.
+          </p>
         </div>
         <div class="box">
-            <i class="fa-solid fa-plane"></i>
-            <h3>fastest travel</h3>
-            <p>Travel is quick and effective, and it can be arranged to accommodate both your trip and your schedule.</p>
+          <i class="fa-solid fa-plane"></i>
+          <h3>fastest travel</h3>
+          <p>
+            Travel is quick and effective, and it can be arranged to accommodate
+            both your trip and your schedule.
+          </p>
         </div>
         <div class="box">
-            <i class="fa-brands fa-cc-visa"></i>
-            <h3>passport & visa</h3>
-            <p>Passport and visa processing made possible by an expedient document system that does not consume your time.</p>
+          <i class="fa-brands fa-cc-visa"></i>
+          <h3>passport & visa</h3>
+          <p>
+            Passport and visa processing made possible by an expedient document
+            system that does not consume your time.
+          </p>
         </div>
         <div class="box">
-            <i class="fa-sharp fa-solid fa-ticket"></i>
-            <h3>ticket & attraction</h3>
-            <p>You can put away images of hours-long waits to enjoy the rides and shows at your favorite amusement parks.</p>
+          <i class="fa-sharp fa-solid fa-ticket"></i>
+          <h3>ticket & attraction</h3>
+          <p>
+            You can put away images of hours-long waits to enjoy the rides and
+            shows at your favorite amusement parks.
+          </p>
         </div>
         <div class="box">
-            <i class="fa-solid fa-shield"></i>
-            <h3>insurance</h3>
-            <p>Keep unwanted events from happening on your trip so you can enjoy your vacation.</p>
+          <i class="fa-solid fa-shield"></i>
+          <h3>insurance</h3>
+          <p>
+            Keep unwanted events from happening on your trip so you can enjoy
+            your vacation.
+          </p>
         </div>
         <div class="box">
-            <i class="fa-solid fa-car"></i>
-            <h3>car hire</h3>
-            <p>Our car rental service is here to help you get around to all the different areas of interest.</p>
+          <i class="fa-solid fa-car"></i>
+          <h3>car hire</h3>
+          <p>
+            Our car rental service is here to help you get around to all the
+            different areas of interest.
+          </p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!-- Service Section ends -->
+    <!-- Service Section ends -->
 
-<!-- Gallery and Review section starts -->
+    <!-- Gallery and Review section starts -->
 
-<!-- Gallery section starts -->
+    <!-- Gallery section starts -->
 
-<section class="gallery" id="gallery">
-    
-    <h1 class="heading">
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
         <span>g</span>
         <span>a</span>
         <span>l</span>
@@ -149,139 +187,239 @@
         <span>e</span>
         <span>r</span>
         <span>y</span>
-    </h1>
+      </h1>
 
-    <div class="box-container">
-
+      <div class="box-container">
         <div class="box">
-            <img src="/assets/gallery-section/g - bali.png" alt="">
-            <div class="content">
-                <h3>bali</h3>
-                <p>Bali's attractions include historical sites and buildings that have stood the tests of time.</p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/assets/gallery-section/g - padar.png" alt="">
-            <div class="content">
-                <h3>padar island</h3>
-                <p>Padar Island is known for its stunning panoramic views, different colored sand beaches.
-                </p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/assets/gallery-section/g - borobudur.png" alt="">
-            <div class="content">
-                <h3>borobudur temple</h3>
-                <p>Borobudur is a masterpiece of Buddhist architecture and monumental arts. 
-                </p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/assets/gallery-section/g - bromo.png" alt="">
-            <div class="content">
-                <h3>mount bromo</h3>
-                <p>Mount Bromo is famous for its magnificent sunrise views from above the volcanoes.</p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/assets/gallery-section/g- raja ampat.png" alt="">
-            <div class="content">
-                <h3>raja ampat island</h3>
-                <p>Raja Ampat is a remote archipelago as a destination for travellers seeking peaceful atmosphere.</p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/assets/gallery-section/g - tumpak sewu.png" alt="">
-            <div class="content">
-                <h3>tumpak sewu waterfall</h3>
-                <p>Tumpak Sewu Waterfall is an exciting destination for travelers seeking adventure and natural beauty.</p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/assets/gallery-section/g - kelimutu.png" alt="">
-            <div class="content">
-                <h3>lake kelimutu</h3>
-                <p>Lake Kelimutu is famous for its three crater lakes and and unique destination. </p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/assets/gallery-section/g - tumpak sewu.png" alt="">
-            <div class="content">
-                <h3>ijen crater</h3>
-                <p>Ijen Crater is the blue flames that can be seen at night and stunning views.</p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-        <div class="box">
-            <img src="/assets/gallery-section/g- raja ampat.png" alt="">
-            <div class="content">
-                <h3>mount rinjani</h3>
-                <p>Mount Rinjani is a challenging but rewarding experience, offering stunning views of the volcano, the surrounding landscape, and a crater lake.</p>
-                <a href="#" class="btn">see more</a>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<!-- Gallery section ends -->
-
-<!-- Footer section starts -->
-
-<footer class="footer">
-        <div class="footer-left">
-            <h3>Payment Method</h3>
-            <div class="credit-cards">
-                <img src="/assets/footer-section/visa.png" alt="">
-                <img src="/assets/footer-section/mastercard.png" alt="">
-                <img src="/assets/footer-section/paypal.png" alt="">
-            </div>
-            <p class="footer-copyright">2023 WantToGo</p>
-        </div>
-
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>Indonesia</span> DKI Jakarta, jakarta Selatan</p>
-            </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+62 877-777-77</p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="#">support@gmail.com</a></p>
-            </div>
-        </div>
-
-        <div class="footer-right">
-            <p class="footer-about">
-                <img src="/assets/logo/WanToGo.png" alt="">
+          <img src="/assets/gallery-section/g - bali.png" alt="" />
+          <div class="content">
+            <h3>bali</h3>
+            <p>
+              Bali's attractions include historical sites and buildings that
+              have stood the tests of time.
             </p>
-
-            <div class="footer-media">
-                <a href="#"><i class="fa fa-youtube"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-            </div>
+            <a href="#" class="btn">see more</a>
+          </div>
         </div>
+        <div class="box">
+          <img src="/assets/gallery-section/g - padar.png" alt="" />
+          <div class="content">
+            <h3>padar island</h3>
+            <p>
+              Padar Island is known for its stunning panoramic views, different
+              colored sand beaches.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/assets/gallery-section/g - borobudur.png" alt="" />
+          <div class="content">
+            <h3>borobudur temple</h3>
+            <p>
+              Borobudur is a masterpiece of Buddhist architecture and monumental
+              arts.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/assets/gallery-section/g - bromo.png" alt="" />
+          <div class="content">
+            <h3>mount bromo</h3>
+            <p>
+              Mount Bromo is famous for its magnificent sunrise views from above
+              the volcanoes.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/assets/gallery-section/g- raja ampat.png" alt="" />
+          <div class="content">
+            <h3>raja ampat island</h3>
+            <p>
+              Raja Ampat is a remote archipelago as a destination for travellers
+              seeking peaceful atmosphere.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/assets/gallery-section/g - tumpak sewu.png" alt="" />
+          <div class="content">
+            <h3>tumpak sewu waterfall</h3>
+            <p>
+              Tumpak Sewu Waterfall is an exciting destination for travelers
+              seeking adventure and natural beauty.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/assets/gallery-section/g - kelimutu.png" alt="" />
+          <div class="content">
+            <h3>lake kelimutu</h3>
+            <p>
+              Lake Kelimutu is famous for its three crater lakes and and unique
+              destination.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/assets/gallery-section/g - tumpak sewu.png" alt="" />
+          <div class="content">
+            <h3>ijen crater</h3>
+            <p>
+              Ijen Crater is the blue flames that can be seen at night and
+              stunning views.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="/assets/gallery-section/g- raja ampat.png" alt="" />
+          <div class="content">
+            <h3>mount rinjani</h3>
+            <p>
+              Mount Rinjani is a challenging but rewarding experience, offering
+              stunning views of the volcano, the surrounding landscape, and a
+              crater lake.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Gallery section ends -->
+
+    <!-- Review section starts -->
+
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+
+      <!-- Review cards -->
+      <div class="cards">
+        <div class="card">
+          <img src="/assets/review-section/r-1.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+            veniam, nesciunt in incidunt placeat beatae error neque ipsam
+            eveniet libero repudiandae quasi aliquam quas velit harum! Minima
+            quaerat ipsa explicabo.
+          </p>
+          <h2>John Doe</h2>
+          <h4>Finance Advisor</h4>
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="card">
+          <img src="/assets/review-section/r-2.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+            veniam, nesciunt in incidunt placeat beatae error neque ipsam
+            eveniet libero repudiandae quasi aliquam quas velit harum! Minima
+            quaerat ipsa explicabo.
+          </p>
+          <h2>John Doe</h2>
+          <h4>Finance Advisor</h4>
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="card">
+          <img src="/assets/review-section/r-3.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+            veniam, nesciunt in incidunt placeat beatae error neque ipsam
+            eveniet libero repudiandae quasi aliquam quas velit harum! Minima
+            quaerat ipsa explicabo.
+          </p>
+          <h2>John Doe</h2>
+          <h4>Finance Advisor</h4>
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="card">
+          <img src="/assets/review-section/r-4.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+            veniam, nesciunt in incidunt placeat beatae error neque ipsam
+            eveniet libero repudiandae quasi aliquam quas velit harum! Minima
+            quaerat ipsa explicabo.
+          </p>
+          <h2>John Doe</h2>
+          <h4>Finance Advisor</h4>
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="card">
+          <img src="/assets/review-section/r-5.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+            veniam, nesciunt in incidunt placeat beatae error neque ipsam
+            eveniet libero repudiandae quasi aliquam quas velit harum! Minima
+            quaerat ipsa explicabo.
+          </p>
+          <h2>John Doe</h2>
+          <h4>Finance Advisor</h4>
+          <i class="fa fa-quote-left"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review section ends -->
+
+    <!-- Footer section starts -->
+
+    <footer class="footer">
+      <div class="footer-left">
+        <h3>Payment Method</h3>
+        <div class="credit-cards">
+          <img src="/assets/footer-section/visa.png" alt="" />
+          <img src="/assets/footer-section/mastercard.png" alt="" />
+          <img src="/assets/footer-section/paypal.png" alt="" />
+        </div>
+        <p class="footer-copyright">2023 WantToGo</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Indonesia</span> DKI Jakarta, jakarta Selatan</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+62 877-777-77</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#">support@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-about">
+          <img src="/assets/logo/WanToGo.png" alt="" />
+        </p>
+
+        <div class="footer-media">
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
     </footer>
 
-<!-- Footer section ends -->
+    <!-- Footer section ends -->
 
-<!-- Custom js file link -->
-<script src="/js/script.js"></script>
-
-</body>
-
+    <!-- Custom js file link -->
+    <script src="/js/script.js"></script>
+  </body>
 </html>
