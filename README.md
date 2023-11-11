@@ -4,11 +4,11 @@
 </p>
 This is for welcome page.
 <br><br>
-Di dalam repositori ini, kode merujuk pada pengembangan profil perusahaan xxx. Proyek ini mencakup berbagai peningkatan yang telah diimplementasikan, termasuk integrasi API untuk mengirimkan kontak kepada xxx (sisi xxx), integrasi API untuk memungkinkan pengguna berlangganan xxx, integrasi API xxx untuk memberikan informasi terkini dari xxx, serta integrasi API untuk melakukan pendataan pendaftaran di xxx. Kami juga telah menambahkan berbagai fitur lainnya yang bertujuan untuk meningkatkan fungsionalitas dan kenyamanan penggunaan situs web xxx.
+Di dalam repositori ini, kode merujuk pada pengembangan profil perusahaan WanToGo. Proyek ini mencakup berbagai peningkatan yang telah diimplementasikan, termasuk integrasi API untuk mengirimkan kontak kepada WanToGo (sisi WanToGo), integrasi API untuk memungkinkan pengguna berlangganan WanToGo, integrasi API WanToGo untuk memberikan informasi terkini dari WanToGo, serta integrasi API untuk melakukan pendataan pendaftaran di WanToGo. Kami juga telah menambahkan berbagai fitur lainnya yang bertujuan untuk meningkatkan fungsionalitas dan kenyamanan penggunaan situs web WanToGo.
 <br><br>
 
-##  Teknologi yang Digunakan
-xxx dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
+## 🚀 Teknologi yang Digunakan 🚀
+WanToGo dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 
 | Teknologi         | Keterangan                                                                                      |
 |-------------------|-------------------------------------------------------------------------------------------------|
@@ -21,7 +21,7 @@ xxx dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 
 <br>
 
-##  Fitur Utama xxx
+## 🪄 Fitur Utama WanToGo 🪄
 
 <img src="img" width="350px" height="200px" align="center" />
 
@@ -45,46 +45,47 @@ xxx dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 
 <br>
 
-## 🌐 Link xxx Final Project
+## 👩‍💻 Link WanToGo Final Project 👩‍💻
 
 Below is the link to the final project:
 
 | Website              | Link                                               | Keterangan                                                                            |
 |----------------------|----------------------------------------------------|---------------------------------------------------------------------------------------|
-| XXX                | [Menuju Website](link 1) | Link website utama XXX.|
-| XXX             | [Menuju Website](link 2)| Link website pengembangan XXX, bagi pengembang untuk mengetahui Endpoint API dan lainnya.|
+| WanToGo                | [Menuju Website](link 1) | Link website utama WanToGo.|
+| WanToGo             | [Menuju Website](link 2)| Link website pengembangan WanToGo, bagi pengembang untuk mengetahui Endpoint API dan lainnya.|
 
 <br>
 
-##  Tim 2 Section Medan
-XXX adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Group 2 Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ). 
-<br> Berikut tim perancang dan pengembang XXX:
+## 💡 Tim 2 Section Medan 💡
+WanToGo adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Group 2 Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ). 
+<br> Berikut tim perancang dan pengembang WanToGo:
 
 | Nama                   | Role                      |
 |------------------------|---------------------------|
-| a         | Project Leader            |
-| b       | Frontend Engineer         |
-| c    | Frontend Engineer         |
-| d   | Backend Engineer          |
-| e   | Backend Engineer          |
-| f         | Quality Assurance         |
+| Stefanus Bernard Melkisedek         | Project Leader            |
+| Fajrina Reski Arini       | Frontend Engineer         |
+| Sherina Salsabila Dewi Beutari    | Frontend Engineer         |
+| Muhammad Ruskin Ridho   | Backend Engineer          |
+| Stefanus Bernard Melkisedek   | Backend Engineer          |
+| Rivianty Putri N         | Quality Assurance         |
+| Fadlila Nurwanda         | Quality Assurance         |
 
 <br>
 
-##  Kontribusi
+## 🖇️ Kontribusi 🖇️
 Project telah final di tanggal DD MONTH 2023, tertutup untuk kontribusi.
 
 <br>
 
-##  Security Policy & License
-Berikut merupakan link ke halaman Security Policy (kebijakan keamanan) dan License (lisensi) untuk project XXX:
+## 🛡️ Security Policy & License 🛡️
+Berikut merupakan link ke halaman Security Policy (kebijakan keamanan) dan License (lisensi) untuk project WanToGo:
 
 | Menuju Halaman                                           | Keterangan                                   |
 |------------------------------------------------------|----------------------------------------------|
-| [Security Policy](https://github.com) | Kebijakan keamanan proyek XXX.            |
-| [License](https://github.com)           | Lisensi yang berlaku untuk proyek XXX.    |
+| [Security Policy](https://github.com) | Kebijakan keamanan proyek WanToGo.            |
+| [License](https://github.com)           | Lisensi yang berlaku untuk proyek WanToGo.    |
 
 <br>
 
-##  Akhir
+## 👋 Akhir 👋
 Akhir kata untuk web
