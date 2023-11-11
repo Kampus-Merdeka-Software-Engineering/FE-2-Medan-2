@@ -54,48 +54,54 @@ section{
 /* Header section */
 
 header {
-display: inline;
+    display: inline;
 }
 
 nav {
-box-shadow: 0 0 5px black;
-background-color: black;
-display: flex;
-justify-content: space-between;
-align-items: center;
-position: sticky;
-top: 0;
-padding: 10px 20px;
-z-index: 10;
+    box-shadow: 0 0 5px black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 10px 20px;
+    z-index: 10;
 }
 
 .logo {
-width: 100px;
+    width: 100px;
+}
+
+.logo img{
+    height: 150%;
+    width: 150%;
+    align-items: center;
 }
 
 nav ul {
-padding-right: 10px;
-list-style: none;
-display: flex;
-gap: 20px;
+    padding-right: 10px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 nav ul li a {
-color: white;
-text-decoration: none;
-font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
-color: #f0cd06;
-font-weight: bold;
+    color: #f0cd06;
+    font-weight: bold;
 }
 
 .menu-icon{
-display: none;
-width: 30px;
-cursor: pointer;
-margin-left: 40px;
+    display: none;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
 }
 
 /* Home section */
