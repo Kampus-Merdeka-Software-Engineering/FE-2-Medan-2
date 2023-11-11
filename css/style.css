@@ -305,6 +305,7 @@ textarea{
     border-radius: .5rem;
     padding: 1rem;
     text-align: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .services .box-container .box i{
@@ -326,8 +327,22 @@ textarea{
 }
 
 .services .box-container .box:hover{
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    background: #ffa500;
+    transform: scale(1.1);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     cursor: pointer;
+}
+
+.services .box-container .box:hover #srv-icon{
+    color: #fff;
+}
+
+.services .box-container .box:hover h3{
+    color: #800020;
+}
+
+.services .box-container .box:hover p{
+    color: #fff;
 }
 
 /* Gallery section */
@@ -383,27 +398,13 @@ textarea{
 /* Review section */
 
 .review{
-    background: linear-gradient(90deg, #c4880f 0%, #e5ff39 100%);
-}
-
-.wrapper{
-    min-height: 100vh;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.wrapper h1{
-    font-size: 50px;
-    margin: 25px 0;
-    text-align: center;
+    background: white;
 }
 
 .wrapper h5{
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .cards{
@@ -424,7 +425,7 @@ textarea{
     position: relative;
     background: rgba(255, 255, 255, 0.2);
     box-shadow: 10px 20px 25px  rgba(0, 0, 0, 0.3);
-    transition: 0.5s;
+    transition: all 0.5s ease-in-out;
 }
 
 .card img{
@@ -463,8 +464,16 @@ textarea{
 .card:hover{
     transform: scale(1.4);
     color: #333;
-    background: #fff;
+    background: linear-gradient(35deg, #c4880f 10%, #e5ff39 100%);
     box-shadow: 10px 40px 50px  rgba(0, 0, 0, 0.5);
+}
+
+.card:hover #quote{
+    color: white;
+}
+
+.card:hover p{
+    color: #800020
 }
 
 /* Footer section */
