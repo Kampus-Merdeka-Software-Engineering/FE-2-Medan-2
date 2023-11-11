@@ -65,6 +65,7 @@ align-items: center;
 position: sticky;
 top: 0;
 padding: 10px 20px;
+z-index: 10;
 }
 
 .logo {
@@ -90,6 +91,7 @@ font-weight: bold;
 }
 
 .menu-icon{
+display: none;
 width: 30px;
 cursor: pointer;
 margin-left: 40px;
@@ -200,12 +202,13 @@ form{
     border: 1px solid #FFF;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 0 10px;
 }
 
 .inputbox select{
     background-color: rgb(245, 243, 220);
     color: rgb(134, 127, 127);
-    padding: 1px;
+    padding: 0 10px;
     width: 100%;
     height: 30px;
     border: none;
@@ -246,9 +249,13 @@ textarea{
 }
 
 .ticket-column input{
-    width: 100%;
+    width: 80%;
     height: 25px;
     border-radius: 2px;
+}
+
+.ticket-column label{
+    width: 20%;
 }
 
 .column-check-ticket{
@@ -279,6 +286,10 @@ textarea{
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+}
+
+.submit-ticket-btn{
+    text-align: center;
 }
 
 /* Service section */
@@ -505,16 +516,12 @@ footer {
 
 @media(max-width: 1200px){
 
-    html{
+    /* html{
         font-size: 55%;
-    }
+    } */
 }
 
 @media(max-width: 991px){
-
-    header{
-        padding: 2rem;
-    }
 
     section{
         padding: 2rem;
@@ -537,24 +544,39 @@ footer {
 @media(max-width: 768px){
 
     #menu-bar{
-        display: initial;
+        display: block;
     }
 
     header .navbar{
         position: absolute;
-        top: 100%; left: 0; right: 0;
+        top: 70px;
+        left: 0;
+        right: 0;
         background: #333;
-        border-top: .1rem solid rgba(255, 255, 255, .2);
-        padding: 1rem 2rem;
+        /* border-top: .1rem solid rgba(255, 255, 255, .2); */
+        flex-direction: column;
     }
 
     header .navbar li a{
         display: block;
         border-radius: .5rem;
         padding: 1.5rem;
-        margin: 1.5rem 0;
+        /* margin: 1.5rem 0; */
         background: #222;
 
+    }
+
+    .show{
+        height: auto;
+        padding: 1rem 2rem;
+    }
+
+
+
+    header .hidden{
+        height: 0; 
+        overflow: hidden;
+        padding: 0;
     }
 
     footer{
