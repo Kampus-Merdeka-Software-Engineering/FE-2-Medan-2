@@ -382,13 +382,96 @@ textarea{
 
 /* Review section */
 
+.review{
+    background: linear-gradient(90deg, #c4880f 0%, #e5ff39 100%);
+}
 
+.wrapper{
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h1{
+    font-size: 50px;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.wrapper h5{
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 55px;
+    padding: 20px 30px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 20px 25px  rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
+.card img{
+    height: 90px;
+    width: 90px;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 20px;
+}
+
+.card p{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.card h2{
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.card h4{
+    color: #333;
+    font-size: 16px;
+}
+
+.card i{
+    font-size: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    color: var(--orange);
+}
+
+.card:hover{
+    transform: scale(1.4);
+    color: #333;
+    background: #fff;
+    box-shadow: 10px 40px 50px  rgba(0, 0, 0, 0.5);
+}
 
 /* Footer section */
 
 footer {
     position: absolute;
-    margin-top: auto;
+    margin-top: 10px;
 }
 
 .footer {
@@ -474,7 +557,7 @@ footer {
 }
 
 .footer .footer-center p a {
-    color: rgb(22, 255, 177);
+    color: rgb(245, 208, 0);
     text-decoration: none;
 }
 
@@ -509,7 +592,7 @@ footer {
 }
 
 .footer .footer-media a:hover {
-    background-color: rgb(240, 213, 8);
+    background-color: rgb(228, 162, 8);
 }
 
 /* Media queries */
@@ -571,12 +654,20 @@ footer {
         padding: 1rem 2rem;
     }
 
-
-
     header .hidden{
         height: 0; 
         overflow: hidden;
         padding: 0;
+    }
+
+    .cards{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin: 70px 0;
     }
 
     footer{
