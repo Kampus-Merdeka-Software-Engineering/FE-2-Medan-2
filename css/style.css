@@ -501,18 +501,18 @@ textarea{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: #0c52a1;
+    background-color: #fff;
 }
 .profile-card{
     position: relative;
     width: 220px;
     height: 220px;
-    background-color: #fff;
+    background-color: #ffa500;
     padding: 30px;
     border-radius: 50%;
     box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
     transition: all 0.3s ease-in-out;
-    margin: 40px 20px;
+    margin: 40px 55px;
 }
 .profile-card:hover{
     border-radius: 10px;
@@ -547,11 +547,12 @@ textarea{
 }
 .caption h3{
     font-size: 21px;
-    color: #0c52a1;
+    color: #800020;
     font-weight: 600;
 }
 .caption p{
     font-size: 15px;
+    color: #964b00;
     font-weight: 500;
     margin: 2px 0 12px 0;
 }
@@ -559,7 +560,7 @@ textarea{
     font-size: 21px;
     margin: 0 3px;
     cursor: pointer;
-    color: #333;
+    color: #fff;
     transition: all .4s;
 }
 .caption .social-links i:hover{
@@ -783,4 +784,11 @@ footer {
     .heading span{
         font-size: 2.5rem;
     }
+
+    footer{
+        position: absolute;
+    }
+
+
+
 }
