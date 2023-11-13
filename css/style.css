@@ -793,6 +793,22 @@ footer {
     font-size: 2.5rem;
   }
 
+  .review .card p{
+    font-size: 14px;
+  }
+
+  .profile-card .caption h3{
+    font-size: 14px;
+  }
+
+  .profile-card .caption p{
+    font-size: 10px;
+  }
+
+  .profile-card .caption .social-links i{
+    font-size: 14px;
+  }
+
   footer {
     position: absolute;
   }
