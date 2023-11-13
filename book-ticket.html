@@ -1,70 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book Now</title>
 
     <!-- custom css file link -->
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css" />
 
     <!-- icon website -->
-    
-    <link rel="icon" href="/assets/logo/WanTogo Icon.png">
+
+    <link rel="icon" href="/assets/logo/WanTogo Icon.png" />
 
     <!-- telephone css link -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
     <!-- footer cdn link -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header starts -->
 
-</head>
-<body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/assets/logo/WanToGo Logo.png" width="100%" alt="" />
+        </div>
+        <ul class="navbar hidden">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#book">Book</a>
+          </li>
+          <li>
+            <a href="#services">Service</a>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="#review">Review</a>
+          </li>
+          <li>
+            <a href="#aboutus">About Us</a>
+          </li>
+        </ul>
+        <img
+          src="/assets/menu-icon/menu.png"
+          alt="menu"
+          class="menu-icon"
+          id="menu-bar"
+        />
+      </nav>
+      <div class="banner"></div>
+    </header>
 
-<!-- Header starts -->
-
-<header>
-    <nav>
-      <div class="logo">
-        <img src="/assets/logo/WanToGo Logo.png" width="100%" alt="" />
-      </div>
-      <ul class="navbar hidden">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#book">Book</a>
-        </li>
-        <li>
-          <a href="#services">Service</a>
-        </li>
-        <li>
-          <a href="#gallery">Gallery</a>
-        </li>
-        <li>
-          <a href="#review">Review</a>
-        </li>
-        <li>
-          <a href="#aboutus">About Us</a>
-        </li>
-      </ul>
-      <img src="/assets/menu-icon/menu.png" alt="menu" class="menu-icon" id="menu-bar">
-    </nav>
-    <div class="banner"></div>
-    
-  </header>
-
-<!-- Header ends -->
+    <!-- Header ends -->
 
     <!-- Book section starts -->
 
-<section class="book" id="book">
-
-    <h1 class="heading">
+    <section class="book" id="book">
+      <h1 class="heading">
         <span>b</span>
         <span>o</span>
         <span>o</span>
@@ -73,113 +80,132 @@
         <span>n</span>
         <span>o</span>
         <span>w</span>
-    </h1>
+      </h1>
 
-    <form action="" autocomplete="on">
+      <form action="" autocomplete="on">
         <div class="inputbox">
-            <h3>name</h3>
-            <input type="text" id="name" name="name" placeholder="input your name here" minlength="2" required>
+          <h3>name</h3>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="input your name here"
+            minlength="2"
+            required
+          />
         </div>
         <div class="inputbox">
-            <h3>where to</h3>
-            <select name="where-to" id="where-to" required>
-                <option value="">Select your destination</option>
-                <option value="bali">bali</option>
-                <option value="padar-island">padar island</option>
-                <option value="borobudur-temple">borobudur temple</option>
-                <option value="mount-bromo">mount bromo</option>
-                <option value="raja-ampat-island">raja ampat island</option>
-                <option value="tumpak-sewu-waterfall">tumpak sewu waterfall</option>
-                <option value="lake-kelimutu">lake kelimutu</option>
-                <option value="ijen-carter">ijen carter</option>
-                <option value="mount-rinjani">mount rinjani</option>
-            </select>
+          <h3>where to</h3>
+          <select name="where-to" id="where-to" required>
+            <option value="">Select your destination</option>
+            <option value="bali">bali</option>
+            <option value="padar-island">padar island</option>
+            <option value="borobudur-temple">borobudur temple</option>
+            <option value="mount-bromo">mount bromo</option>
+            <option value="raja-ampat-island">raja ampat island</option>
+            <option value="tumpak-sewu-waterfall">tumpak sewu waterfall</option>
+            <option value="lake-kelimutu">lake kelimutu</option>
+            <option value="ijen-carter">ijen carter</option>
+            <option value="mount-rinjani">mount rinjani</option>
+          </select>
         </div>
         <div class="inputbox">
-            <h3>email</h3>
-            <input type="email" id="email" name="email" placeholder="input your email here" required>
+          <h3>email</h3>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="input your email here"
+            required
+          />
         </div>
         <div class="inputbox">
-            <h3>how many</h3>
-            <input type="number" name="quantity" id="quantity" placeholder="input number of people" required>
+          <h3>how many</h3>
+          <input
+            type="number"
+            name="quantity"
+            id="quantity"
+            placeholder="input number of people"
+            required
+          />
         </div>
         <div class="inputbox">
-            <h3>Enter your phone number:</h3>
-            <input id="phone" type="tel" name="phone" />
+          <h3>Enter your phone number:</h3>
+          <input id="phone" type="tel" name="phone" />
         </div>
         <div class="inputbox">
-            <h3>arrivals</h3>
-            <input type="datetime-local" required>
+          <h3>arrivals</h3>
+          <input type="datetime-local" required />
         </div>
         <div class="inputbox">
-            <h3>message</h3>
-            <textarea name="message" id="message" cols="40" rows="5" placeholder="input your message here"></textarea>
+          <h3>message</h3>
+          <textarea
+            name="message"
+            id="message"
+            cols="40"
+            rows="5"
+            placeholder="input your message here"
+          ></textarea>
         </div>
         <div class="inputbox">
-            <h3>leaving</h3>
-            <input type="datetime-local" required>
+          <h3>leaving</h3>
+          <input type="datetime-local" required />
         </div>
         <div class="submit-btn">
-            <button class="btn">
-                book now
-            </button>
+          <button class="btn">book now</button>
         </div>
-        
-    </form>
+      </form>
+    </section>
 
-</section>
+    <!-- Book section ends -->
 
-<!-- Book section ends -->
+    <!-- Footer section starts -->
 
-<!-- Footer section starts -->
-
-<footer class="footer">
-  <div class="footer-left">
-      <h3>Payment Method</h3>
-      <div class="credit-cards">
-          <img src="/assets/footer-section/visa.png" alt="">
-          <img src="/assets/footer-section/mastercard.png" alt="">
-          <img src="/assets/footer-section/paypal.png" alt="">
+    <footer class="footer">
+      <div class="footer-left">
+        <h3>Payment Method</h3>
+        <div class="credit-cards">
+          <img src="/assets/footer-section/visa.png" alt="" />
+          <img src="/assets/footer-section/mastercard.png" alt="" />
+          <img src="/assets/footer-section/paypal.png" alt="" />
+        </div>
+        <p class="footer-copyright">2023 WantToGo</p>
       </div>
-      <p class="footer-copyright">2023 WantToGo</p>
-  </div>
 
-  <div class="footer-center">
-      <div>
+      <div class="footer-center">
+        <div>
           <i class="fa fa-map-marker"></i>
           <p><span>Indonesia</span> DKI Jakarta, jakarta Selatan</p>
-      </div>
-      <div>
+        </div>
+        <div>
           <i class="fa fa-phone"></i>
           <p>+62 877-777-77</p>
-      </div>
-      <div>
+        </div>
+        <div>
           <i class="fa fa-envelope"></i>
           <p><a href="#">support@gmail.com</a></p>
+        </div>
       </div>
-  </div>
 
-  <div class="footer-right">
-      <p class="footer-about">
-          <img src="/assets/logo/WanToGo Logo.png" alt="">
-      </p>
+      <div class="footer-right">
+        <p class="footer-about">
+          <img src="/assets/logo/WanToGo Logo.png" alt="" />
+        </p>
 
-      <div class="footer-media">
+        <div class="footer-media">
           <a href="#"><i class="fa fa-youtube"></i></a>
           <a href="#"><i class="fa fa-facebook"></i></a>
           <a href="#"><i class="fa fa-twitter"></i></a>
           <a href="#"><i class="fa fa-instagram"></i></a>
           <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
       </div>
-  </div>
+    </footer>
 
-</footer>
+    <!-- Footer section ends -->
 
-<!-- Footer section ends -->
+    <!-- custom js file link -->
 
-<!-- custom js file link -->
-
-<script src="/js/script.js"></script>
-
-</body>
+    <script src="/js/script.js"></script>
+  </body>
 </html>
