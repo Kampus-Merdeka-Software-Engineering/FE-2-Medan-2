@@ -182,7 +182,7 @@ nav ul li a:hover {
   margin: 0 0.5rem;
 }
 
-.home .controls .vid-btn .active {
+.home .controls .vid-btn.active {
   background: var(--orange);
 }
 
