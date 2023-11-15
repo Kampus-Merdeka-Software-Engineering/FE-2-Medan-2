@@ -278,7 +278,7 @@ textarea {
 }
 
 .column-check-ticket .box-title {
-  width: 560px;
+  max-width: 560px;
   height: 435x;
   flex-shrink: 0;
   border-radius: 2px;
@@ -498,16 +498,16 @@ textarea {
 
 .home-container {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   background-color: #fff;
+  border: 1px solid black;
 }
 
 .profile-card {
-  position: relative;
+  /* position: relative; */
   width: 220px;
   height: 220px;
   background-color: #ffa500;
@@ -797,6 +797,10 @@ footer {
     font-size: 14px;
   }
 
+  .profile-card {
+    margin: 0;
+  }
+
   .profile-card .caption h3 {
     font-size: 14px;
   }
@@ -807,6 +811,11 @@ footer {
 
   .profile-card .caption .social-links i {
     font-size: 14px;
+  }
+
+  .column-check-ticket {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   footer {
