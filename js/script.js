@@ -1,12 +1,32 @@
 // menu video button
 
 let videoBtn = document.querySelectorAll(".vid-btn");
+
+videoBtn.forEach((btn) => {
+  btn.classList.add("fade");
+});
+
 videoBtn.forEach((btn) => {
   btn.addEventListener("click", () => {
-    document.querySelector(".controls .active").classList.remove("active");
-    btn.classList.add("active");
-    let src = btn.getAttribute("data-src");
-    document.querySelector("#video-slider").src = src;
+    let videoSlider = document.querySelector("#video-slider");
+
+    // Start the fade-out effect
+    videoSlider.style.opacity = 0;
+
+    // After the fade-out effect is done, change the video source and start the fade-in effect
+    setTimeout(() => {
+      document.querySelector(".controls .active").classList.remove("active");
+      btn.classList.add("active");
+      let src = btn.getAttribute("data-src");
+      videoSlider.src = src;
+      videoSlider.style.opacity = 1;
+    }, 500); // The duration here should match the transition duration in CSS
+
+    // Add 'fade-out' class on click and then remove it after the transition ends
+    btn.classList.add("fade-out");
+    setTimeout(() => {
+      btn.classList.remove("fade-out");
+    }, 250); // The duration here should match the transition duration in CSS
   });
 });
 
