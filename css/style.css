@@ -14,7 +14,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  transition: all 0.3s liniear;
 }
 
 *::selection {
