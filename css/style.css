@@ -803,10 +803,6 @@ footer {
     display: block;
   }
 
-  nav {
-    background-color: #800020;
-  }
-
   header .navbar {
     position: absolute;
     top: 70px;
