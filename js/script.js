@@ -1,5 +1,7 @@
 // menu video button
 
+// ! video button
+
 let videoBtn = document.querySelectorAll(".vid-btn");
 
 videoBtn.forEach((btn) => {
@@ -30,7 +32,7 @@ videoBtn.forEach((btn) => {
   });
 });
 
-// menu-bar icon
+// ! menu-bar icon
 
 const menu = document.querySelector(".menu-icon");
 console.log(menu);
@@ -40,7 +42,7 @@ menu.addEventListener("click", () => {
   navbar.classList.toggle("show");
 });
 
-// Phone number
+// ! Phone number
 
 const phoneInputField = document.querySelector("#phone");
 const phoneInput = window.intlTelInput(phoneInputField, {
@@ -48,7 +50,7 @@ const phoneInput = window.intlTelInput(phoneInputField, {
     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
 });
 
-// Redirect to book section
+// ! Redirect to book section
 
 let book_url = document.getElementById("book_url");
 
@@ -60,4 +62,4 @@ document.getElementById("book").onclick = function () {
   window.location.href = "book.html";
 };
 
-// Redirect from book section to check ticket section
+// ! Redirect from book section to check ticket section

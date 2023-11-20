@@ -32,7 +32,7 @@ section {
   padding: 2rem 9%;
 }
 
-/* Heading for every pages */
+/* ! Heading for every pages */
 
 .heading {
   text-align: center;
@@ -51,7 +51,7 @@ section {
   background: none;
 }
 
-/* Header section */
+/* ! Header section */
 
 header {
   display: inline;
@@ -104,7 +104,7 @@ nav ul li a:hover {
   margin-left: 40px;
 }
 
-/* Home section */
+/* ! Home section */
 
 .home {
   min-height: 100vh;
@@ -196,7 +196,7 @@ nav ul li a:hover {
   opacity: 0;
 }
 
-/* Book section */
+/* ! Book section */
 
 form {
   display: flex;
@@ -250,7 +250,7 @@ textarea {
   box-shadow: 1px 1px 1px #999;
 }
 
-/* Ticket section */
+/* ! Ticket section */
 
 .ticket-form {
   background: var(--orange);
@@ -315,7 +315,7 @@ textarea {
   text-transform: uppercase;
 }
 
-/* Service section */
+/* ! Service section */
 
 .services .box-container {
   display: flex;
@@ -367,7 +367,7 @@ textarea {
   color: #fff;
 }
 
-/* Gallery section */
+/* ! Gallery section */
 
 .gallery .box-container {
   display: flex;
@@ -418,7 +418,7 @@ textarea {
   padding: 0.5rem 0;
 }
 
-/* Review section */
+/* ! Review section */
 
 .review {
   background: white;
@@ -499,7 +499,7 @@ textarea {
   color: #800020;
 }
 
-/* About-us section */
+/* ! About-us section */
 
 .about-us {
   box-sizing: border-box;
@@ -516,7 +516,6 @@ textarea {
 }
 
 .profile-card {
-  /* position: relative; */
   width: 220px;
   height: 220px;
   background-color: #ffa500;
@@ -589,7 +588,7 @@ textarea {
   color: #0c52a1;
 }
 
-/* Floating ticket section */
+/* ! Floating ticket section */
 
 .floating-parent {
   position: fixed;
@@ -642,7 +641,7 @@ textarea {
   user-select: none;
 }
 
-/* Footer section */
+/* ! Footer section */
 
 footer {
   position: absolute;
@@ -770,7 +769,7 @@ footer {
   background-color: rgb(228, 162, 8);
 }
 
-/* Media queries */
+/* ! Media queries */
 
 @media (max-width: 1200px) {
   /* html{
@@ -808,7 +807,6 @@ footer {
     left: 0;
     right: 0;
     background: #333;
-    /* border-top: .1rem solid rgba(255, 255, 255, .2); */
     flex-direction: column;
   }
 
@@ -816,7 +814,6 @@ footer {
     display: block;
     border-radius: 0.5rem;
     padding: 1.5rem;
-    /* margin: 1.5rem 0; */
     background: #222;
   }
 
@@ -885,7 +882,7 @@ footer {
   }
 }
 
-/* Check ticket keyframe */
+/* ! Keyframe */
 
 @keyframes float {
   0% {
