@@ -1,6 +1,7 @@
-# Web Name - Description
+# WanToGo - Travel Agency Website
+
 <p align="center">
-  <img src="url.gif" alt="Logo" width="600px" height="200px">
+  <img src="./assets/logo/Logo Readme.gif" alt="WanToGo" width="700px" height="300px">
 </p>
 This is for welcome page.
 <br><br>
@@ -8,16 +9,17 @@ Di dalam repositori ini, kode merujuk pada pengembangan profil perusahaan WanToG
 <br><br>
 
 ## 🚀 Teknologi yang Digunakan 🚀
+
 WanToGo dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 
-| Teknologi         | Keterangan                                                                                      |
-|-------------------|-------------------------------------------------------------------------------------------------|
-| HTML              | Digunakan untuk membuat struktur dasar situs web.                                               |
-| CSS               | Bertanggung jawab atas tampilan dan gaya situs web.                                             |
-| JavaScript (JS)   | Menambahkan interaktivitas ke dalam situs web.                                                  |
-| Node.js           | Menjalankan sisi server belakang proyek.                                                        |
-| Express           | Framework Node.js yang digunakan untuk pengembangan web yang cepat.                             |
-| API               | Memungkinkan integrasi berbagai API data untuk menyediakan konten berkualitas kepada pengguna.  |
+| Teknologi       | Keterangan                                                                                     |
+| --------------- | ---------------------------------------------------------------------------------------------- |
+| HTML            | Digunakan untuk membuat struktur dasar situs web.                                              |
+| CSS             | Bertanggung jawab atas tampilan dan gaya situs web.                                            |
+| JavaScript (JS) | Menambahkan interaktivitas ke dalam situs web.                                                 |
+| Node.js         | Menjalankan sisi server belakang proyek.                                                       |
+| Express         | Framework Node.js yang digunakan untuk pengembangan web yang cepat.                            |
+| API             | Memungkinkan integrasi berbagai API data untuk menyediakan konten berkualitas kepada pengguna. |
 
 <br>
 
@@ -49,43 +51,47 @@ WanToGo dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 
 Below is the link to the final project:
 
-| Website              | Link                                               | Keterangan                                                                            |
-|----------------------|----------------------------------------------------|---------------------------------------------------------------------------------------|
-| WanToGo                | [Menuju Website](link 1) | Link website utama WanToGo.|
-| WanToGo             | [Menuju Website](link 2)| Link website pengembangan WanToGo, bagi pengembang untuk mengetahui Endpoint API dan lainnya.|
+| Website | Link                     | Keterangan                                                                                    |
+| ------- | ------------------------ | --------------------------------------------------------------------------------------------- |
+| WanToGo | [Menuju Website](link 1) | Link website utama WanToGo.                                                                   |
+| WanToGo | [Menuju Website](link 2) | Link website pengembangan WanToGo, bagi pengembang untuk mengetahui Endpoint API dan lainnya. |
 
 <br>
 
 ## 💡 Tim 2 Section Medan 💡
-WanToGo adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Group 2 Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ). 
+
+WanToGo adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Group 2 Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ).
 <br> Berikut tim perancang dan pengembang WanToGo:
 
-| Nama                   | Role                      |
-|------------------------|---------------------------|
-| Stefanus Bernard Melkisedek         | Project Leader            |
-| Fajrina Reski Arini       | Frontend Engineer         |
-| Sherina Salsabila Dewi Beutari    | Frontend Engineer         |
-| Muhammad Ruskin Ridho   | Backend Engineer          |
-| Stefanus Bernard Melkisedek   | Backend Engineer          |
-| Rivianty Putri N         | Quality Assurance         |
-| Fadlila Nurwanda         | Quality Assurance         |
+| Nama                           | Role              |
+| ------------------------------ | ----------------- |
+| Stefanus Bernard Melkisedek    | Project Leader    |
+| Fajrina Reski Arini            | Frontend Engineer |
+| Sherina Salsabila Dewi Beutari | Frontend Engineer |
+| Muhammad Ruskin Ridho          | Backend Engineer  |
+| Stefanus Bernard Melkisedek    | Backend Engineer  |
+| Rivianty Putri N               | Quality Assurance |
+| Fadlila Nurwanda               | Quality Assurance |
 
 <br>
 
 ## 🖇️ Kontribusi 🖇️
+
 Project telah final di tanggal DD MONTH 2023, tertutup untuk kontribusi.
 
 <br>
 
 ## 🛡️ Security Policy & License 🛡️
+
 Berikut merupakan link ke halaman Security Policy (kebijakan keamanan) dan License (lisensi) untuk project WanToGo:
 
-| Menuju Halaman                                           | Keterangan                                   |
-|------------------------------------------------------|----------------------------------------------|
-| [Security Policy](https://github.com) | Kebijakan keamanan proyek WanToGo.            |
-| [License](https://github.com)           | Lisensi yang berlaku untuk proyek WanToGo.    |
+| Menuju Halaman                        | Keterangan                                 |
+| ------------------------------------- | ------------------------------------------ |
+| [Security Policy](https://github.com) | Kebijakan keamanan proyek WanToGo.         |
+| [License](https://github.com)         | Lisensi yang berlaku untuk proyek WanToGo. |
 
 <br>
 
 ## 👋 Akhir 👋
+
 Akhir kata untuk web
