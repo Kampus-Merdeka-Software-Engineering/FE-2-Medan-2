@@ -485,7 +485,7 @@ textarea {
 }
 
 .card:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   color: #333;
   background: linear-gradient(35deg, #c4880f 10%, #e5ff39 100%);
   box-shadow: 10px 40px 50px rgba(0, 0, 0, 0.5);
