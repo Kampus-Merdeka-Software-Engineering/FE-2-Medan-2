@@ -136,7 +136,7 @@ nav ul li a:hover {
 .btn {
   display: inline-block;
   margin-top: 1rem;
-  background: var(--orange); /*perlu di ubah*/
+  background: var(--orange);
   color: #fff;
   padding: 0.8rem 3rem;
   border: 0.2rem solid var(--orange);
