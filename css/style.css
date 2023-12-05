@@ -271,6 +271,8 @@ textarea {
   width: 80%;
   height: 25px;
   border-radius: 2px;
+  text-transform: none;
+  padding-left: 10px;
 }
 
 .ticket-column label {
