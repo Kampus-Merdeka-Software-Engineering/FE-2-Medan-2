@@ -13,6 +13,9 @@
 
     <link rel="icon" href="./assets/logo/WanTogo Icon.png" />
 
+    <!-- ! sweetaalert2 script -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <!-- ! footer cdn link -->
 
     <link
@@ -68,38 +71,38 @@
       </div>
       <div class="ticket-column">
         <label for=""> ticket number: </label>
-        <input type="text" />
+        <input type="text" id="ticketNumber" />
       </div>
       <div class="ticket-column">
         <label for=""> name: </label>
-        <input type="text" readonly />
+        <input type="text" id="name" readonly />
       </div>
       <div class="ticket-column">
         <label for=""> email: </label>
-        <input type="text" readonly />
+        <input type="text" id="email" readonly />
       </div>
       <div class="ticket-column">
         <label for=""> phone: </label>
-        <input type="text" readonly />
+        <input type="text" id="phone" readonly />
       </div>
       <div class="ticket-column">
         <label for=""> destination: </label>
-        <input type="text" readonly />
+        <input type="text" id="destination" readonly />
       </div>
       <div class="ticket-column">
         <label for=""> quantity: </label>
-        <input type="text" readonly />
+        <input type="text" id="quantity" readonly />
       </div>
       <div class="ticket-column">
         <label for=""> arrival: </label>
-        <input type="text" readonly />
+        <input type="text" id="arrivalDate" readonly />
       </div>
       <div class="ticket-column">
         <label for=""> leaving: </label>
-        <input type="text" readonly />
+        <input type="text" id="leavingDate" readonly />
       </div>
       <div class="submit-ticket-btn">
-        <button class="btn">ok</button>
+        <button class="btn" id="checkTicketBtn">check</button>
       </div>
     </section>
 
