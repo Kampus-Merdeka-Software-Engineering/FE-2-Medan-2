@@ -39,6 +39,7 @@ const bookTicketForm = async () => {
       }),
     }).then((res) => res.json());
     console.log(respond);
+    return respond;
   } catch (error) {
     console.error(error);
   }
@@ -49,21 +50,31 @@ document
   .querySelector("#bookTicketBtn")
   .addEventListener("click", async function () {
     try {
-      const response = await bookTicketForm();
-      if (response && response.ticketNumber) {
-        Swal.fire({
-          icon: "success",
-          title: "Booking Succcesfull",
-          text: `Your ticket number is: ${response.ticketNumber}`,
-        }).then(() => {
-          window.location.href = `${API_URL}/check-ticket}`;
-        });
-      } else {
-        Swal.fire({
-          icon: "error",
-          title: "Booking Failed",
-          text: "Failed to book ticket. Please try again.",
-        });
+      const confirmation = await Swal.fire({
+        title: "Confirm to book ticket?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Confirm booking",
+        cancelButtonText: "Cancel booking",
+      });
+
+      if (confirmation.isConfirmed) {
+        const response = await bookTicketForm();
+        if (response && response.ticketNumber) {
+          Swal.fire({
+            icon: "success",
+            title: "Booking Succcesfull",
+            text: `Your ticket number is: ${response.ticketNumber}`,
+          }).then(() => {
+            window.location.href = `${API_URL}/check-ticket`;
+          });
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Booking Failed",
+            text: "Failed to book ticket. Please try again.",
+          });
+        }
       }
     } catch (error) {
       console.error(error);
