@@ -3,7 +3,7 @@
 <p align="center">
   <img src="./assets/logo/Logo Readme.gif" alt="WanToGo" width="700px" height="300px">
 </p>
-This is for welcome page.
+Selamat datang di repositori web WanToGo! WanTogo adalah platform travel agency website yang menyediakan berbagai paket perjalanan terbaik untuk memenuhi keinginan anda dalam satu aplikasi untuk menemukan dan membeli berbagai kebutuhan perjalanan seperti akomodasi perjalanan, pay later dan travel guide. Kami merupakan bagian dari Grup 2 Section Medan RevoU MSIB KM AUG23, dan kami bangga telah merancang dan membangun platform ini untuk memberikan layanan platform travel dengan berbagai kemudahan.
 <br><br>
 Di dalam repositori ini, kode merujuk pada pengembangan profil perusahaan WanToGo. Proyek ini mencakup berbagai peningkatan yang telah diimplementasikan, termasuk integrasi API untuk mengirimkan kontak kepada WanToGo (sisi WanToGo), integrasi API untuk memungkinkan pengguna berlangganan WanToGo, integrasi API WanToGo untuk memberikan informasi terkini dari WanToGo, serta integrasi API untuk melakukan pendataan pendaftaran di WanToGo. Kami juga telah menambahkan berbagai fitur lainnya yang bertujuan untuk meningkatkan fungsionalitas dan kenyamanan penggunaan situs web WanToGo.
 <br><br>
@@ -20,6 +20,7 @@ WanToGo dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 | Node.js         | Menjalankan sisi server belakang proyek.                                                       |
 | Express         | Framework Node.js yang digunakan untuk pengembangan web yang cepat.                            |
 | API             | Memungkinkan integrasi berbagai API data untuk menyediakan konten berkualitas kepada pengguna. |
+| PostMan         | Melakukan Testing pada API dan memonitor performance                                           |
 
 <br>
 
