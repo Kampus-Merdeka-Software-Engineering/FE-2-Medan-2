@@ -21,6 +21,9 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
+    <!-- ! sweetaalert2 script -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <!-- ! footer cdn link -->
 
     <link
@@ -91,6 +94,7 @@
             name="name"
             placeholder="input your name here"
             minlength="2"
+            autocomplete="name"
             required
           />
         </div>
@@ -116,6 +120,7 @@
             id="email"
             name="email"
             placeholder="input your email here"
+            autocomplete="email"
             required
           />
         </div>
@@ -131,11 +136,16 @@
         </div>
         <div class="inputbox">
           <h3>Enter your phone number:</h3>
-          <input id="phone" type="tel" name="phone" />
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            autocomplete="tel-national"
+          />
         </div>
         <div class="inputbox">
           <h3>arrivals</h3>
-          <input type="datetime-local" required />
+          <input type="datetime-local" id="arrivalDate" required />
         </div>
         <div class="inputbox">
           <h3>message</h3>
@@ -149,10 +159,10 @@
         </div>
         <div class="inputbox">
           <h3>leaving</h3>
-          <input type="datetime-local" required />
+          <input type="datetime-local" id="leavingDate" required />
         </div>
-        <div class="submit-btn" id="book-ticket-btn">
-          <button class="btn">book now</button>
+        <div class="submit-btn" id="bookTicketBtn">
+          <button class="btn" onclick="bookTicketForm()">book now</button>
         </div>
       </form>
     </section>
