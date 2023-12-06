@@ -70,22 +70,19 @@ document
         showCancelButton: true,
         confirmButtonText: "Confirm booking",
         cancelButtonText: "Cancel booking",
-      }).catch((error) => {
-        console.error("Error with Swal.fire", error);
       });
 
       if (confirmation.isConfirmed) {
         const response = await bookTicketForm();
         if (response && response.ticketNumber) {
-          Swal.fire({
+          await Swal.fire({
             icon: "success",
             title: "Booking Succcesfull",
             text: `Your ticket number is: ${response.ticketNumber}`,
-          }).then(() => {
-            window.location.href = `${API_URL}/check-ticket`;
           });
+          window.location.href = `${API_URL}/check-ticket`;
         } else {
-          Swal.fire({
+          await Swal.fire({
             icon: "error",
             title: "Booking Failed",
             text: "Failed to book ticket. Please try again.",
@@ -94,12 +91,10 @@ document
       }
     } catch (error) {
       console.error(error);
-      Swal.fire({
+      await Swal.fire({
         icon: "error",
         title: "Error",
         text: "An error occured. Please try again.",
-      }).catch((error) => {
-        console.error("Error with Swal.fire", error);
       });
     }
   });
