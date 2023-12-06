@@ -38,7 +38,8 @@ document
       // Display success message using SweetAlert
       Swal.fire({
         icon: "success",
-        title: "Ticket data fetched successfully!",
+        title: "Ticket Checked!",
+        text: "The ticket number you entered is valid.",
         showConfirmButton: false,
         timer: 1500,
       });
