@@ -104,6 +104,15 @@ nav ul li a:hover {
   margin-left: 40px;
 }
 
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #f0cd06;
+  text-decoration-thickness: 2px;
+  color: #f0cd06;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
 /* ! Home section */
 
 .home {
