@@ -62,7 +62,8 @@ const bookTicketForm = async () => {
 // Show the ticket number in an alert when the user clicks the Book Now button.
 document
   .querySelector("#bookTicketBtn")
-  .addEventListener("click", async function () {
+  .addEventListener("click", async function (event) {
+    event.preventDefault();
     try {
       const confirmation = await Swal.fire({
         title: "Confirm to book ticket?",
