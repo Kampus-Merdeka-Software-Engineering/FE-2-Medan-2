@@ -89,12 +89,16 @@ nav ul {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  padding: 0px 5px;
 }
 
 nav ul li a:hover {
   color: #f0cd06;
   font-weight: bold;
+  box-shadow: 0px 0px 10px 0px rgba(175, 175, 175, 0.75);
+  transition: all 0.5s ease;
+  padding: 10px;
 }
 
 .menu-icon {
@@ -247,6 +251,7 @@ form {
   -webkit-appearance: button;
   appearance: button;
   outline: none;
+  text-transform: none;
 }
 
 textarea {
