@@ -71,8 +71,6 @@ document
         showCancelButton: true,
         confirmButtonText: "Confirm booking",
         cancelButtonText: "Cancel booking",
-      }).catch((error) => {
-        console.error("Error with Swal.fire", error);
       });
 
       if (confirmation.isConfirmed) {
@@ -98,8 +96,6 @@ document
         icon: "error",
         title: "Error",
         text: "An error occured. Please try again.",
-      }).catch((error) => {
-        console.error("Error with Swal.fire", error);
       });
     }
   });
