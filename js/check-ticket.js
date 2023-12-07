@@ -16,7 +16,6 @@ document
     try {
       const ticketNumber = document.querySelector("#ticketNumber").value;
       console.log(ticketNumber);
-      // Validate the ticket number input
       if (!ticketNumber) {
         throw new Error("Please enter a valid ticket number.");
       }
@@ -57,6 +56,8 @@ document
       });
     }
   });
+
+// ! Defines an API URL and a function to fetch ticket data from the API.
 
 const API_URL = "https://dull-jade-parrot-tam.cyclic.app";
 
