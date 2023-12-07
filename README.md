@@ -28,22 +28,22 @@ WanToGo dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 
 <img src="img" width="350px" height="200px" align="center" />
 
-- Home :Mempermudah pengguna untuk mengakses dalam memulai pencarian dan memberikan gambaran informasi kepada pengunjung tentang WanToGo tanpa harus menjelajahi setiap halaman. WanToGo memiliki tampilan yang profesional, dinamis, dan responsif untuk memastikan pengalaman akses web WanToGo yang optimal.
+- Home : Memiliki tampilan yang menarik yang dapat meningkatkan pengalaman user interface. WanToGo memiliki tampilan yang profesional, dinamis, dan responsif untuk memastikan pengalaman akses web WanToGo yang optimal.
 
 <img src="img" width="350px" height="200px" align="center" />
 
-- Service :WanToGo menyediakan berbagai layanan dan fasilitas untuk memenuhi kebutuhan dan keinginan pelanggan dalam merencanakan dan melakukan perjalanan ke tempat yang ingin dikunjungi.
+- Service : WanToGo menyediakan berbagai layanan dan fasilitas untuk memenuhi kebutuhan dan keinginan pelanggan dalam merencanakan dan melakukan perjalanan ke tempat yang ingin dikunjungi.
 <img src="img" width="350px" height="200px" align="center" />
 
-- Galeri Destinasi Wisata:WanToGo menyediakan gambar pemandangan dari berbagai destinasi wisata yang dapat dijelajahi oleh pengguna sehingga membantu pengguna untuk mendapatkan gambaran visual tentang tempat-tempat yang menarik untuk dikunjungi.
-
-<img src="img" width="350px" height="200px" align="center" />
-
--Book Now (API) : WanToGo mempermudah pengguna mengisi data untuk pergi ke tempat yang ingin dikunjungi dengan fitur Auto Kode Generate, yang nanti dikirim ke Endpoint API untuk di panggil ke cek status pendataan melalui check ticket.
+- Gallery: WanToGo menyediakan gambar pemandangan serta informasi berbagai destinasi wisata yang dapat dijelajahi oleh pengguna sehingga membantu pengguna untuk mendapatkan gambaran visual tentang tempat-tempat yang menarik untuk dikunjungi.
 
 <img src="img" width="350px" height="200px" align="center" />
 
-- Check Ticket (API): Pengguna dapat dengan mudah memeriksa status pendataan yang telah di isi untuk mendapatkan e-ticket
+- Book Now  : WanToGo mempermudah pengguna mengisi data untuk pergi ke tempat yang ingin dikunjungi dengan fitur Auto Kode Generate, yang nanti dikirim ke Endpoint API untuk di panggil ke cek status pendataan melalui check ticket.
+
+<img src="img" width="350px" height="200px" align="center" />
+
+- Check Ticket (API): Pengguna dapat dengan mudah memeriksa status pendataan yang telah di isi dengan menggunakan e-ticket.
 
 <br>
 
@@ -93,6 +93,6 @@ Berikut merupakan link ke halaman Security Policy (kebijakan keamanan) dan Licen
 <br>
 
 ## 👋 Akhir 👋
-Terima kasih telah mengunjungi repositori XGrow dan selamat mengunakan "May this project inspire and benefit you. Let's keep coding together!"
+Terima kasih telah mengunjungi repositori WanToGo dan selamat mengunakan "May this project inspire and benefit you. Let's keep coding together!"
 
 Akhir kata untuk web
