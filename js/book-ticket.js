@@ -75,6 +75,7 @@ document
 
       if (confirmation.isConfirmed) {
         const response = await bookTicketForm();
+        console.log(response);
         if (response && response.ticketNumber) {
           await Swal.fire({
             icon: "success",
