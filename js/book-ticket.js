@@ -71,7 +71,7 @@ document
         showCancelButton: true,
         confirmButtonText: "Confirm booking",
         cancelButtonText: "Cancel booking",
-      });
+      }).catch((error) => console.error("Error with Swal.fire", error));
 
       if (confirmation.isConfirmed) {
         const response = await bookTicketForm();
