@@ -1,5 +1,4 @@
 // ! menu-bar icon
-
 const menu = document.querySelector(".menu-icon");
 console.log(menu);
 menu.addEventListener("click", () => {
@@ -9,7 +8,6 @@ menu.addEventListener("click", () => {
 });
 
 // ! active-link navbar
-
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".navbar li a");
 
@@ -38,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ! video button
-
 let videoBtn = document.querySelectorAll(".vid-btn");
 
 videoBtn.forEach((btn) => {
