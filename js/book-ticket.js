@@ -59,7 +59,11 @@ const bookTicketForm = async () => {
   }
 };
 
-// Show the ticket number in an alert when the user clicks the Book Now button.
+// ! Show the ticket number in an alert when the user clicks the Book Now button.
+
+const BASE_URL =
+  "https://kampus-merdeka-software-engineering.github.io/FE-2-Medan-2";
+
 document
   .querySelector("#bookTicketBtn")
   .addEventListener("click", async function (event) {
@@ -82,7 +86,7 @@ document
             title: "Booking Succcesfull",
             text: `Your ticket number is: ${response.ticketNumber}`,
           });
-          window.location.href = `${API_URL}/check-ticket`;
+          window.location.href = `${BASE_URL}/check-ticket.html`;
         } else {
           await Swal.fire({
             icon: "error",
