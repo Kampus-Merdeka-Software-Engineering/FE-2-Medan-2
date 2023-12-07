@@ -46,7 +46,7 @@ const bookTicketForm = async () => {
         email: document.querySelector("#email").value,
         phoneNumber: document.querySelector("#phone").value,
         message: document.querySelector("#message").value,
-        destination: document.querySelector("#destination").value,
+        destination: document.querySelector("#where-to").value,
         quantity: document.querySelector("#quantity").value,
         arrivalDate: document.querySelector("#arrivalDate").value,
         leavingDate: document.querySelector("#leavingDate").value,
