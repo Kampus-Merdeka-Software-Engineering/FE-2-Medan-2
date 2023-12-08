@@ -13,14 +13,14 @@ menu.addEventListener("click", () => {
 document
   .querySelector("#checkTicketBtn")
   .addEventListener("click", async function () {
-    const spinnerTarget = document.querySelector("#spinner");
-    const spinner = new Spinner().spin(spinnerTarget);
     try {
       const ticketNumber = document.querySelector("#ticketNumber").value;
       console.log(ticketNumber);
       if (!ticketNumber) {
         throw new Error("Please enter a valid ticket number.");
       }
+
+      document.querySelector(".loader-container").style.display = "block";
 
       const response = await checkTicketForm(ticketNumber);
       console.log(response);
@@ -36,7 +36,7 @@ document
       document.querySelector("#leavingDate").value =
         response.ticket.leavingDate;
 
-      spinner.stop();
+      document.querySelector(".loader-container").style.display = "none";
 
       // Display success message using SweetAlert
       Swal.fire({
@@ -48,7 +48,6 @@ document
       });
     } catch (error) {
       console.error(error);
-      spinner.stop();
 
       // Display error message using SweetAlert
       Swal.fire({
