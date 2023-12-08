@@ -9,58 +9,59 @@ menu.addEventListener("click", () => {
 });
 
 // ! Defines the API URL and creates a function checkTicketForm.
+document.addEventListener("DOMContentLoaded", () => {
+  document
+    .querySelector("#checkTicketBtn")
+    .addEventListener("click", async function () {
+      const loader = document.querySelector(".loader");
+      loader.classList.remove("loader--hidden");
 
-document
-  .querySelector("#checkTicketBtn")
-  .addEventListener("click", async function () {
-    const loader = document.querySelector(".loader");
-    loader.classList.remove("loader--hidden");
+      try {
+        const ticketNumber = document.querySelector("#ticketNumber").value;
+        console.log(ticketNumber);
+        if (!ticketNumber) {
+          throw new Error("Please enter a valid ticket number.");
+        }
 
-    try {
-      const ticketNumber = document.querySelector("#ticketNumber").value;
-      console.log(ticketNumber);
-      if (!ticketNumber) {
-        throw new Error("Please enter a valid ticket number.");
+        const response = await checkTicketForm(ticketNumber);
+        console.log(response);
+
+        document.querySelector("#name").value = response.ticket.name;
+        document.querySelector("#email").value = response.ticket.email;
+        document.querySelector("#phone").value = response.ticket.phoneNumber;
+        document.querySelector("#destination").value =
+          response.ticket.destination;
+        document.querySelector("#quantity").value = response.ticket.quantity;
+        document.querySelector("#arrivalDate").value =
+          response.ticket.arrivalDate;
+        document.querySelector("#leavingDate").value =
+          response.ticket.leavingDate;
+
+        // Display success message using SweetAlert
+        Swal.fire({
+          icon: "success",
+          title: "Ticket Checked!",
+          text: "The ticket number you entered is valid.",
+          showConfirmButton: false,
+          timer: 1500,
+        });
+      } catch (error) {
+        console.error(error);
+
+        // Display error message using SweetAlert
+        Swal.fire({
+          icon: "error",
+          title: "Invalid ticket number",
+          text: "The ticket number you entered does not match any in our system. Please check the number and try again.",
+          customClass: {
+            text: "text-class",
+          },
+        });
+      } finally {
+        loader.classList.add("loader--hidden");
       }
-
-      const response = await checkTicketForm(ticketNumber);
-      console.log(response);
-
-      document.querySelector("#name").value = response.ticket.name;
-      document.querySelector("#email").value = response.ticket.email;
-      document.querySelector("#phone").value = response.ticket.phoneNumber;
-      document.querySelector("#destination").value =
-        response.ticket.destination;
-      document.querySelector("#quantity").value = response.ticket.quantity;
-      document.querySelector("#arrivalDate").value =
-        response.ticket.arrivalDate;
-      document.querySelector("#leavingDate").value =
-        response.ticket.leavingDate;
-
-      // Display success message using SweetAlert
-      Swal.fire({
-        icon: "success",
-        title: "Ticket Checked!",
-        text: "The ticket number you entered is valid.",
-        showConfirmButton: false,
-        timer: 1500,
-      });
-    } catch (error) {
-      console.error(error);
-
-      // Display error message using SweetAlert
-      Swal.fire({
-        icon: "error",
-        title: "Invalid ticket number",
-        text: "The ticket number you entered does not match any in our system. Please check the number and try again.",
-        customClass: {
-          text: "text-class",
-        },
-      });
-    } finally {
-      loader.classList.add("loader--hidden");
-    }
-  });
+    });
+});
 
 // ! Defines an API URL and a function to fetch ticket data from the API.
 
