@@ -3,67 +3,55 @@
 <p align="center">
   <img src="./assets/logo/Logo Readme.gif" alt="WanToGo" width="700px" height="300px">
 </p>
-Selamat datang di repositori web WanToGo! WanTogo adalah platform travel agency website yang menyediakan berbagai paket perjalanan terbaik untuk memenuhi keinginan anda dalam satu aplikasi untuk menemukan dan membeli berbagai kebutuhan perjalanan seperti akomodasi perjalanan, pay later dan travel guide. Kami merupakan bagian dari Grup 2 Section Medan RevoU MSIB KM AUG23, dan kami bangga telah merancang dan membangun platform ini untuk memberikan layanan platform travel dengan berbagai kemudahan.
+Welcome to the WanToGo web repository! WanToGo is a travel agency website platform that provides various travel packages to fulfill your desires in one application to find and purchase travel needs such as travel accommodation. We are part of Group 2 Section Medan RevoU MSIB KM AUG23, and we are proud to have designed and built this platform to provide a travel platform service with various conveniences.
 <br><br>
-Di dalam repositori ini, kode merujuk pada pengembangan profil perusahaan WanToGo. Proyek ini mencakup berbagai peningkatan yang telah diimplementasikan, termasuk integrasi API untuk mengirimkan kontak kepada WanToGo (sisi WanToGo), integrasi API untuk memungkinkan pengguna berlangganan WanToGo, integrasi API WanToGo untuk memberikan informasi terkini dari WanToGo, serta integrasi API untuk melakukan pendataan pendaftaran di WanToGo. Kami juga telah menambahkan berbagai fitur lainnya yang bertujuan untuk meningkatkan fungsionalitas dan kenyamanan penggunaan situs web WanToGo.
+In this repository, the code refers to developing the WanToGo company profile. This project includes various improvements that have been implemented, including API integration to send contacts to WanToGo (WanToGo side), API integration to allow users to subscribe to WanToGo, WanToGo API integration to provide the latest information from WanToGo, and API integration to carry out registration data collection at WanToGo. We have also added various other features to improve the functionality and convenience of using the WanToGo website.
 <br><br>
 
-## 🚀 Teknologi yang Digunakan 🚀
+## 🚀 Technologies Used 🚀
 
-WanToGo dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
+WanToGo is built using various technologies, as follows:
 
-| Teknologi       | Keterangan                                                                                     |
-| --------------- | ---------------------------------------------------------------------------------------------- |
-| HTML            | Digunakan untuk membuat struktur dasar situs web.                                              |
-| CSS             | Bertanggung jawab atas tampilan dan gaya situs web.                                            |
-| JavaScript (JS) | Menambahkan interaktivitas ke dalam situs web.                                                 |
-| Node.js         | Menjalankan sisi server belakang proyek.                                                       |
-| Express         | Framework Node.js yang digunakan untuk pengembangan web yang cepat.                            |
-| API             | Memungkinkan integrasi berbagai API data untuk menyediakan konten berkualitas kepada pengguna. |
-| PostMan         | Melakukan Testing pada API dan memonitor performance                                           |
+| Technology      | Description                                                                  |
+| --------------- | ---------------------------------------------------------------------------- |
+| HTML            | Used to create the basic structure of the website.                           |
+| CSS             | Responsible for the appearance and style of the website.                     |
+| JavaScript (JS) | Adds interactivity to the website.                                           |
+| Node.js         | Runs the server side of the project.                                         |
+| Express         | Node.js framework used for rapid web development.                            |
+| API             | Allows integration of various data APIs to provide quality content to users. |
+| PostMan         | Performs Testing on the API and monitors performance                         |
 
 <br>
 
-## 🪄 Fitur Utama WanToGo 🪄
+## 🌟 Main Features of WanToGo 🌟
 
-<img src="img" width="350px" height="200px" align="center" />
-
-- Home : Memiliki tampilan yang menarik yang dapat meningkatkan pengalaman user interface. WanToGo memiliki tampilan yang profesional, dinamis, dan responsif untuk memastikan pengalaman akses web WanToGo yang optimal.
-
-<img src="img" width="350px" height="200px" align="center" />
-
-- Service : WanToGo menyediakan berbagai layanan dan fasilitas untuk memenuhi kebutuhan dan keinginan pelanggan dalam merencanakan dan melakukan perjalanan ke tempat yang ingin dikunjungi.
-<img src="img" width="350px" height="200px" align="center" />
-
-- Gallery: WanToGo menyediakan gambar pemandangan serta informasi berbagai destinasi wisata yang dapat dijelajahi oleh pengguna sehingga membantu pengguna untuk mendapatkan gambaran visual tentang tempat-tempat yang menarik untuk dikunjungi.
-
-<img src="img" width="350px" height="200px" align="center" />
-
-- Book Now  : WanToGo mempermudah pengguna mengisi data untuk pergi ke tempat yang ingin dikunjungi dengan fitur Auto Kode Generate, yang nanti dikirim ke Endpoint API untuk di panggil ke cek status pendataan melalui check ticket.
-
-<img src="img" width="350px" height="200px" align="center" />
-
-- Check Ticket (API): Pengguna dapat dengan mudah memeriksa status pendataan yang telah di isi dengan menggunakan e-ticket.
+|      Feature       |                                                                                                         Description                                                                                                          |                                               Preview                                                |
+| :----------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+|        Home        |          The home page has an attractive appearance that can enhance the user interface experience. WanToGo has a professional, dynamic, and responsive display to ensure an optimal WanToGo web access experience.          |    <img src="./assets/feature-highlight/HOME.png" width="350px" height="200px" align="center" />     |
+|      Service       |                                             WanToGo provides various services and facilities to meet customer needs and desires in planning and traveling to the desired place.                                              |  <img src="./assets/feature-highlight/SERVICES.png" width="350px" height="200px" align="center" />   |
+|      Gallery       |                        WanToGo provides images of scenery and information on various tourist destinations that users can explore, helping users get a visual overview of interesting places to visit.                        |  <img src="./assets/feature-highlight/GALLLERY.png" width="350px" height="200px" align="center" />   |
+|      Book Now      | WanToGo makes it easy for users to fill in data to go to the desired place with the Auto Code Generate feature, which is then sent to the API Endpoint to be called to check the registration status through a check ticket. |   <img src="./assets/feature-highlight/BOOKING.png" width="350px" height="200px" align="center" />   |
+| Check Ticket (API) |                                                                  Users can easily check the registration status that has been filled in using the e-ticket.                                                                  | <img src="./assets/feature-highlight/CHECK-TIKET.png" width="350px" height="200px" align="center" /> |
 
 <br>
 
-## 👩‍💻 Link WanToGo Final Project 👩‍💻
+## 👩‍💻 Link to WanToGo Final Project 👩‍💻
 
 Below is the link to the final project:
 
-| Website | Link                     | Keterangan                                                                                    |
-| ------- | ------------------------ | --------------------------------------------------------------------------------------------- |
-| WanToGo | [Menuju Website](link 1) | Link website utama WanToGo.                                                                   |
-| WanToGo | [Menuju Website](link 2) | Link website pengembangan WanToGo, bagi pengembang untuk mengetahui Endpoint API dan lainnya. |
+| Website | Link                                                                                 | Description                |
+| ------- | ------------------------------------------------------------------------------------ | -------------------------- |
+| WanToGo | [Go to Website](https://kampus-merdeka-software-engineering.github.io/FE-2-Medan-2/) | Main WanToGo website link. |
 
 <br>
 
-## 💡 Tim 2 Section Medan 💡
+## 💡 Team 2 Section Medan 💡
 
-WanToGo adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Group 2 Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ).
-<br> Berikut tim perancang dan pengembang WanToGo:
+WanToGo is a project built with concentration and great hope by Group 2 Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ).
+<br> Here are the designers and developers of WanToGo:
 
-| Nama                           | Role              |
+| Name                           | Role              |
 | ------------------------------ | ----------------- |
 | Stefanus Bernard Melkisedek    | Project Leader    |
 | Fajrina Reski Arini            | Frontend Engineer |
@@ -75,24 +63,15 @@ WanToGo adalah project yang dibangun dengan konsentrasi dan harapan besar oleh G
 
 <br>
 
-## 🖇️ Kontribusi 🖇️
+## 🖇️ Contribution 🖇️
 
-Project telah final di tanggal DD MONTH 2023, tertutup untuk kontribusi.
-
-<br>
-
-## 🛡️ Security Policy & License 🛡️
-
-Berikut merupakan link ke halaman Security Policy (kebijakan keamanan) dan License (lisensi) untuk project WanToGo:
-
-| Menuju Halaman                        | Keterangan                                 |
-| ------------------------------------- | ------------------------------------------ |
-| [Security Policy](https://github.com) | Kebijakan keamanan proyek WanToGo.         |
-| [License](https://github.com)         | Lisensi yang berlaku untuk proyek WanToGo. |
+The project was finalized on DD MONTH 2023, closed for contributions.
 
 <br>
 
-## 👋 Akhir 👋
-Terima kasih telah mengunjungi repositori WanToGo dan selamat mengunakan "May this project inspire and benefit you. Let's keep coding together!"
+## 👋 End 👋
 
-Akhir kata untuk web
+Thank you for visiting the WanToGo repository and having fun using it. We hope you enjoy using WanToGo as much as we enjoy building it. <br>
+"May this project inspire and benefit you. Let's keep coding together!"
+
+---
