@@ -11,12 +11,10 @@ menu.addEventListener("click", () => {
 // ! active-link navbar
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Get the "Book" link
   const bookLink = document.querySelector(
     '.navbar li a[href="./book-ticket.html"]'
   );
 
-  // Add the active class to the "Book" link
   if (bookLink) {
     bookLink.classList.add("active-link");
   }
