@@ -99,7 +99,7 @@ WanToGo is a project built with concentration and great hope by Group 2 Section 
 
 ## 🖇️ Contribution 🖇️
 
-The project was finalized on DD MONTH 2023, closed for contributions.
+The project was finalized on 11 December 2023 and closed for contributions.
 
 <br>
 
