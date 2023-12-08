@@ -13,6 +13,9 @@ menu.addEventListener("click", () => {
 document
   .querySelector("#checkTicketBtn")
   .addEventListener("click", async function () {
+    const loader = document.querySelector(".loader");
+    loader.classList.remove("loader--hidden");
+
     try {
       const ticketNumber = document.querySelector("#ticketNumber").value;
       console.log(ticketNumber);
@@ -54,6 +57,8 @@ document
           text: "text-class",
         },
       });
+    } finally {
+      loader.classList.add("loader--hidden");
     }
   });
 
