@@ -20,8 +20,6 @@ document
         throw new Error("Please enter a valid ticket number.");
       }
 
-      document.querySelector(".loader-container").style.display = "block";
-
       const response = await checkTicketForm(ticketNumber);
       console.log(response);
 
@@ -35,8 +33,6 @@ document
         response.ticket.arrivalDate;
       document.querySelector("#leavingDate").value =
         response.ticket.leavingDate;
-
-      document.querySelector(".loader-container").style.display = "none";
 
       // Display success message using SweetAlert
       Swal.fire({
@@ -87,3 +83,15 @@ const checkTicketForm = async (ticketNumber) => {
     throw new Error("An error occurred while fetching ticket data.");
   }
 };
+
+// ! Provides a loader for the page
+
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
