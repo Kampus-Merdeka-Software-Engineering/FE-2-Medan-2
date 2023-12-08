@@ -799,6 +799,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background: #333;
   transition: opacity 0.75s, visibility 0.75s;
 }
@@ -811,11 +812,21 @@ footer {
   border-top-color: var(--orange);
   border-radius: 50%;
   animation: loading 0.75s ease infinite;
+  margin-bottom: 20px;
 }
 
 .loader--hidden {
   opacity: 0;
   visibility: hidden;
+}
+
+.loader-text {
+  color: var(--orange);
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: none;
+  letter-spacing: 0.1rem;
+  margin-bottom: 25px;
 }
 
 /* ! Media queries */
