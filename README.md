@@ -26,13 +26,47 @@ WanToGo is built using various technologies, as follows:
 
 ## 🌟 Main Features of WanToGo 🌟
 
-|      Feature       |                                                                                                         Description                                                                                                          |                                               Preview                                                |
-| :----------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-|        Home        |          The home page has an attractive appearance that can enhance the user interface experience. WanToGo has a professional, dynamic, and responsive display to ensure an optimal WanToGo web access experience.          |    <img src="./assets/feature-highlight/HOME.png" width="350px" height="200px" align="center" />     |
-|      Service       |                                             WanToGo provides various services and facilities to meet customer needs and desires in planning and traveling to the desired place.                                              |  <img src="./assets/feature-highlight/SERVICES.png" width="350px" height="200px" align="center" />   |
-|      Gallery       |                        WanToGo provides images of scenery and information on various tourist destinations that users can explore, helping users get a visual overview of interesting places to visit.                        |  <img src="./assets/feature-highlight/GALLLERY.png" width="350px" height="200px" align="center" />   |
-|      Book Now      | WanToGo makes it easy for users to fill in data to go to the desired place with the Auto Code Generate feature, which is then sent to the API Endpoint to be called to check the registration status through a check ticket. |   <img src="./assets/feature-highlight/BOOKING.png" width="350px" height="200px" align="center" />   |
-| Check Ticket (API) |                                                                  Users can easily check the registration status that has been filled in using the e-ticket.                                                                  | <img src="./assets/feature-highlight/CHECK-TIKET.png" width="350px" height="200px" align="center" /> |
+## Main Features
+
+### Home
+
+The home page has an attractive appearance that can enhance the user interface experience. WanToGo has a professional, dynamic, and responsive display to ensure an optimal WanToGo web access experience.<br>
+
+<p align="center">
+  <img src="./assets/feature-highlight/HOME.png" width="350px" height="200px">
+</p>
+
+### Service
+
+WanToGo provides various services and facilities to meet customer needs and desires in planning and traveling to the desired place.<br>
+
+<p align="center">
+  <img src="./assets/feature-highlight/SERVICES.png" width="350px" height="200px">
+</p>
+
+### Gallery
+
+WanToGo provides images of scenery and information on various tourist destinations that users can explore, helping users get a visual overview of interesting places to visit.<br>
+
+<p align="center">
+  <img src="./assets/feature-highlight/GALLLERY.png" width="350px" height="200px">
+</p>
+
+### Book Now
+
+WanToGo makes it easy for users to fill in data to go to the desired place with the Auto Code Generate feature, which is then sent to the API Endpoint to be called to check the registration status through a check ticket.<br>
+
+<p align="center">
+  <img src="./assets/feature-highlight/BOOKING.png" width="350px" height="200px">
+</p>
+
+### Check Ticket (API)
+
+Users can easily check the registration status that has been filled in using the e-ticket.<br>
+
+<p align="center">
+  <img src="./assets/feature-highlight/CHECK-TIKET.png" width="350px" height="200px">
+</p>
 
 <br>
 
@@ -72,6 +106,7 @@ The project was finalized on DD MONTH 2023, closed for contributions.
 ## 👋 End 👋
 
 Thank you for visiting the WanToGo repository and having fun using it. We hope you enjoy using WanToGo as much as we enjoy building it. <br>
-"May this project inspire and benefit you. Let's keep coding together!"
+
+**"May this project inspire and benefit you. Let's keep coding together!"**
 
 ---
