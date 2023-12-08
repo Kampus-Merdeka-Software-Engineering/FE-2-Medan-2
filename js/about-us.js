@@ -19,3 +19,15 @@ document.addEventListener("DOMContentLoaded", function () {
     aboutUsLink.classList.add("active-link");
   }
 });
+
+// ! Provides a loader for the page
+
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
