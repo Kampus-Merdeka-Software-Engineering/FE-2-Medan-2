@@ -66,6 +66,7 @@ document
   .querySelector("#bookTicketBtn")
   .addEventListener("click", async function (event) {
     event.preventDefault();
+    const loader = document.querySelector(".loader");
     try {
       const confirmation = await Swal.fire({
         title: "Confirm to book ticket?",
@@ -76,6 +77,7 @@ document
       });
 
       if (confirmation.isConfirmed) {
+        loader.classList.remove("loader--hidden");
         const response = await bookTicketForm();
         console.log(response);
         if (response && response.ticketNumber) {
@@ -100,6 +102,8 @@ document
         title: "Error",
         text: "An error occured. Please try again.",
       });
+    } finally {
+      loader.classList.add("loader--hidden");
     }
   });
 
