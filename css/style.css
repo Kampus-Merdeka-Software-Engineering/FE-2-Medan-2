@@ -867,8 +867,12 @@ footer {
     font-size: 50%;
   }
 
+  .heading {
+    padding: 55px 0;
+  }
+
   .heading span {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .review .card p {
@@ -876,19 +880,19 @@ footer {
   }
 
   .profile-card {
-    margin: 0;
+    margin: 35px 0;
   }
 
   .profile-card .caption h3 {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .profile-card .caption p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .profile-card .caption .social-links i {
-    font-size: 14px;
+    font-size: 25px;
   }
 
   .column-check-ticket {
