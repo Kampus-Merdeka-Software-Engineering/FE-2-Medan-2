@@ -62,6 +62,8 @@ document
 const API_URL = "https://dull-jade-parrot-tam.cyclic.app";
 
 const checkTicketForm = async (ticketNumber) => {
+  const spinnerTarget = document.querySelector("#spinner");
+  const spinner = new Spinner().spin(spinnerTarget);
   try {
     const response = await fetch(`${API_URL}/check-ticket/${ticketNumber}`, {
       method: "GET",
@@ -77,9 +79,11 @@ const checkTicketForm = async (ticketNumber) => {
     const data = await response.json();
     console.log({ data });
 
+    spinner.stop();
     return data;
   } catch (error) {
     console.error(error);
+    spinner.stop();
     throw new Error("An error occurred while fetching ticket data.");
   }
 };
