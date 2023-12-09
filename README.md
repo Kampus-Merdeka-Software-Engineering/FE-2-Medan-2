@@ -145,5 +145,5 @@ The project was finalized on 11 December 2023 and closed for contributions.
 Thank you for visiting the WanToGo repository and having fun using it. We hope you enjoy using WanToGo as much as we enjoy building it. <br>
 
 **"May this project inspire and benefit you. Let's keep coding together!"**
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 ---
