@@ -1,14 +1,53 @@
-# WanToGo - Travel Agency Website
+<div align="center">
 
-<p align="center">
-  <img src="./src/assets/logo/Logo Readme.gif" alt="WanToGo" width="700px" height="300px">
-</p>
+<h1>
+  <img src="./src/assets/logo/Logo-RevoU.gif" alt="Logo-RevoU" style="vertical-align: middle;" width="50px" />
+  <span style="vertical-align: middle;">&nbsp; WanToGo - Travel Agency Website &nbsp;</span>
+  <img src="./src/assets/logo/Logo-Kampus-Merdeka.gif" alt="Logo-Kampus-Merdeka" style="vertical-align: middle;" width="50px" />
+</h1>
+
+![GitHub contributors](https://img.shields.io/github/contributors/Kampus-Merdeka-Software-Engineering/FE-2-Medan-2?color=orange&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Kampus-Merdeka-Software-Engineering/FE-2-Medan-2?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/Kampus-Merdeka-Software-Engineering/FE-2-Medan-2?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Kampus-Merdeka-Software-Engineering/FE-2-Medan-2?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Kampus-Merdeka-Software-Engineering/FE-2-Medan-2?style=for-the-badge)
+
+<br>
+
+<a href="https://github.com/Anmol-Baranwal/GIFs-For-Readme"><img src="https://forthebadge.com/images/badges/made-with-markdown.svg" width="230" height="30" alt="made with markdown badge"></a> 
+
+<img src="./src/assets/logo/Logo Readme.gif" alt="WanToGo" width="700px" height="300px">
+
+</div>
+
+
+
+
+## Table of Contents
+
+- [Table of Contents](#table-of-contents)
+- [Project Overview](#project-overview)
+- [Technologies Used 🚀](#technologies-used-)
+- [Main Features of WanToGo 🌟](#main-features-of-wantogo-)
+  - [Home](#home)
+  - [Service](#service)
+  - [Gallery](#gallery)
+  - [Book Now](#book-now)
+  - [Check Ticket (API)](#check-ticket-api)
+- [Link to WanToGo Final Project 👩‍💻](#link-to-wantogo-final-project-)
+- [Team 2 Section Medan 💡](#team-2-section-medan-)
+- [Contribution 🖇️](#contribution-️)
+- [End 👋](#end-)
+- [](#)
+
+## Project Overview 
+
 Welcome to the WanToGo web repository! WanToGo is a travel agency website platform that provides various travel packages to fulfill your desires in one application to find and purchase travel needs such as travel accommodation. We are part of Group 2 Section Medan RevoU MSIB KM AUG23, and we are proud to have designed and built this platform to provide a travel platform service with various conveniences.
 <br><br>
 In this repository, the code refers to developing the WanToGo company profile. This project includes various improvements that have been implemented, including API integration to send contacts to WanToGo (WanToGo side), API integration to allow users to subscribe to WanToGo, WanToGo API integration to provide the latest information from WanToGo, and API integration to carry out registration data collection at WanToGo. We have also added various other features to improve the functionality and convenience of using the WanToGo website.
 <br><br>
 
-## 🚀 Technologies Used 🚀
+## Technologies Used 🚀
 
 WanToGo is built using various technologies, as follows:
 
@@ -24,9 +63,7 @@ WanToGo is built using various technologies, as follows:
 
 <br>
 
-## 🌟 Main Features of WanToGo 🌟
-
-## Main Features
+## Main Features of WanToGo 🌟
 
 ### Home
 
@@ -70,7 +107,7 @@ Users can easily check the registration status that has been filled in using the
 
 <br>
 
-## 👩‍💻 Link to WanToGo Final Project 👩‍💻
+## Link to WanToGo Final Project 👩‍💻
 
 Below is the link to the final project:
 
@@ -80,7 +117,7 @@ Below is the link to the final project:
 
 <br>
 
-## 💡 Team 2 Section Medan 💡
+## Team 2 Section Medan 💡
 
 WanToGo is a project built with concentration and great hope by Group 2 Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ).
 <br> Here are the designers and developers of WanToGo:
@@ -97,16 +134,16 @@ WanToGo is a project built with concentration and great hope by Group 2 Section 
 
 <br>
 
-## 🖇️ Contribution 🖇️
+## Contribution 🖇️
 
 The project was finalized on 11 December 2023 and closed for contributions.
 
 <br>
 
-## 👋 End 👋
+## End 👋
 
 Thank you for visiting the WanToGo repository and having fun using it. We hope you enjoy using WanToGo as much as we enjoy building it. <br>
 
 **"May this project inspire and benefit you. Let's keep coding together!"**
-
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
 ---
