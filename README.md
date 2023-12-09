@@ -1,7 +1,7 @@
 # WanToGo - Travel Agency Website
 
 <p align="center">
-  <img src="./assets/logo/Logo Readme.gif" alt="WanToGo" width="700px" height="300px">
+  <img src="./src/assets/logo/Logo Readme.gif" alt="WanToGo" width="700px" height="300px">
 </p>
 Welcome to the WanToGo web repository! WanToGo is a travel agency website platform that provides various travel packages to fulfill your desires in one application to find and purchase travel needs such as travel accommodation. We are part of Group 2 Section Medan RevoU MSIB KM AUG23, and we are proud to have designed and built this platform to provide a travel platform service with various conveniences.
 <br><br>
@@ -33,7 +33,7 @@ WanToGo is built using various technologies, as follows:
 The home page has an attractive appearance that can enhance the user interface experience. WanToGo has a professional, dynamic, and responsive display to ensure an optimal WanToGo web access experience.<br>
 
 <p align="center">
-  <img src="./assets/feature-highlight/HOME.png" width="350px" height="200px">
+  <img src="./src/assets/feature-highlight/HOME.png" width="350px" height="200px">
 </p>
 
 ### Service
@@ -41,7 +41,7 @@ The home page has an attractive appearance that can enhance the user interface e
 WanToGo provides various services and facilities to meet customer needs and desires in planning and traveling to the desired place.<br>
 
 <p align="center">
-  <img src="./assets/feature-highlight/SERVICES.png" width="350px" height="200px">
+  <img src="./src/assets/feature-highlight/SERVICES.png" width="350px" height="200px">
 </p>
 
 ### Gallery
@@ -49,7 +49,7 @@ WanToGo provides various services and facilities to meet customer needs and desi
 WanToGo provides images of scenery and information on various tourist destinations that users can explore, helping users get a visual overview of interesting places to visit.<br>
 
 <p align="center">
-  <img src="./assets/feature-highlight/GALLLERY.png" width="350px" height="200px">
+  <img src="./src/assets/feature-highlight/GALLLERY.png" width="350px" height="200px">
 </p>
 
 ### Book Now
@@ -57,7 +57,7 @@ WanToGo provides images of scenery and information on various tourist destinatio
 WanToGo makes it easy for users to fill in data to go to the desired place with the Auto Code Generate feature, which is then sent to the API Endpoint to be called to check the registration status through a check ticket.<br>
 
 <p align="center">
-  <img src="./assets/feature-highlight/BOOKING.png" width="350px" height="200px">
+  <img src="./src/assets/feature-highlight/BOOKING.png" width="350px" height="200px">
 </p>
 
 ### Check Ticket (API)
@@ -65,7 +65,7 @@ WanToGo makes it easy for users to fill in data to go to the desired place with 
 Users can easily check the registration status that has been filled in using the e-ticket.<br>
 
 <p align="center">
-  <img src="./assets/feature-highlight/CHECK-TIKET.png" width="350px" height="200px">
+  <img src="./src/assets/feature-highlight/CHECK-TIKET.png" width="350px" height="200px">
 </p>
 
 <br>
