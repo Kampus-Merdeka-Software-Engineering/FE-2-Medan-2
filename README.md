@@ -53,13 +53,13 @@ WanToGo is built using various technologies, as follows:
 
 | Technology      | Description                                                                  |
 | --------------- | ---------------------------------------------------------------------------- |
-| HTML            | Used to create the basic structure of the website.                           |
-| CSS             | Responsible for the appearance and style of the website.                     |
-| JavaScript (JS) | Adds interactivity to the website.                                           |
-| Node.js         | Runs the server side of the project.                                         |
-| Express         | Node.js framework used for rapid web development.                            |
-| API             | Allows integration of various data APIs to provide quality content to users. |
-| PostMan         | Performs Testing on the API and monitors performance                         |
+| ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)            | Used to create the basic structure of the website.                           |
+| ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)             | Responsible for the appearance and style of the website.                     |
+| ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) | Adds interactivity to the website.                                           |
+| ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)         | Runs the server side of the project.                                         |
+| ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)         | Node.js framework used for rapid web development.                            |
+| ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)             | Allows integration of various data APIs to provide quality content to users. |
+| ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)         | Performs Testing on the API and monitors performance                         |
 
 <br>
 
