@@ -752,6 +752,7 @@ footer {
 .footer .footer-center p a {
   color: rgb(245, 208, 0);
   text-decoration: none;
+  text-transform: none;
 }
 
 .footer .footer-right {
