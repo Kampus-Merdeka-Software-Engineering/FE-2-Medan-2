@@ -1,32 +1,54 @@
 // ! menu-bar icon
+
+// Select the menu icon element
 const menu = document.querySelector(".menu-icon");
+
+// Log the selected menu element for debugging
 console.log(menu);
+
+// Add a click event listener to the menu icon
 menu.addEventListener("click", () => {
+  // Select the navbar element
   const navbar = document.querySelector(".navbar");
+
+  // Toggle visibility of the navbar on click
   navbar.classList.toggle("hidden");
+
+  // Toggle the 'show' class to animate the navbar
   navbar.classList.toggle("show");
 });
 
 // ! active-link navbar
+
+// Wait for the DOM content to load
 document.addEventListener("DOMContentLoaded", function () {
+  // Select all navigation links
   const navLinks = document.querySelectorAll(".navbar li a");
 
+  // Add click event listeners to each link
   navLinks.forEach((link) => {
     link.addEventListener("click", function (event) {
+      // Prevent the default link click behavior
       event.preventDefault();
 
+      // Remove the 'active-link' class from all links
       navLinks.forEach((link) => link.classList.remove("active-link"));
 
+      // Add the 'active-link' class to the clicked link
       this.classList.add("active-link");
 
+      // Store the href of the clicked link in local storage
       localStorage.setItem("activeLink", this.href);
 
+      // Navigate to the clicked link
       window.location.href = this.href;
     });
   });
 
+  // Retrieve the active link from local storage
   const activeLink = localStorage.getItem("activeLink");
 
+  // If there is an active link stored, add the 'active-link' class to it
   if (activeLink) {
     const link = document.querySelector(`.navbar li a[href="${activeLink}"]`);
     if (link) {
@@ -36,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ! video button
+
 let videoBtn = document.querySelectorAll(".vid-btn");
 
 videoBtn.forEach((btn) => {
@@ -68,12 +91,17 @@ videoBtn.forEach((btn) => {
 
 // ! Provides a loader for the page
 
+// On page load
 window.addEventListener("load", () => {
+  // Select the loader element
   const loader = document.querySelector(".loader");
 
+  // Hide the loader
   loader.classList.add("loader--hidden");
 
+  // On loader transition end
   loader.addEventListener("transitionend", () => {
+    // Remove the loader from the DOM
     document.body.removeChild(loader);
   });
 });
