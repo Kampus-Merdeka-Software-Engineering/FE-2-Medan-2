@@ -620,7 +620,7 @@ textarea {
 .floating-parent .right-button {
   width: 70px;
   height: 70px;
-  background-image: url("./../assets/check-ticket-section/plane-ticket.png");
+  background-image: url("./../src/assets/check-ticket-section/plane-ticket.png");
   border-radius: 50%;
   background-repeat: no-repeat;
   background-color: #ffc55c;
