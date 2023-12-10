@@ -256,7 +256,6 @@ form {
   -webkit-appearance: button;
   appearance: button;
   outline: none;
-  text-transform: none;
 }
 
 textarea {
