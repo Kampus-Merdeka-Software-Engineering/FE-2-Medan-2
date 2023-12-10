@@ -115,7 +115,8 @@ nav ul li a:hover {
   text-decoration-color: #f0cd06;
   text-decoration-thickness: 2px;
   color: var(--orange);
-  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
   background-color: #fff;
   padding: 10px 15px;
   border-radius: 5px;
