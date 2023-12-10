@@ -38,7 +38,11 @@ document.querySelector("#checkTicketBtn").addEventListener("click", async functi
     document.querySelector("#name").value = response.ticket.name;
     document.querySelector("#email").value = response.ticket.email;
     document.querySelector("#phone").value = response.ticket.phoneNumber;
-    document.querySelector("#destination").value = response.ticket.destination;
+
+    // Replace hyphens with spaces in the destination string
+    let destination = response.ticket.destination.replace(/-/g, ' ');
+    document.querySelector("#destination").value = destination;
+
     document.querySelector("#quantity").value = response.ticket.quantity;
     document.querySelector("#arrivalDate").value = response.ticket.arrivalDate;
     document.querySelector("#leavingDate").value = response.ticket.leavingDate;
