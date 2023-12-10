@@ -113,7 +113,7 @@ document.querySelector("#bookTicketBtn").addEventListener("click", async functio
           title: "Booking Succcesfull",
           text: `Your ticket number is: ${response.ticketNumber}`,
         });
-        window.location.href = `${BASE_URL}/check-ticket.html`;
+        window.location.href = `${BASE_URL}/src/pages/check-ticket.html`;
       } else {
         // If the response does not contain a ticket number, display an error message
         await Swal.fire({
