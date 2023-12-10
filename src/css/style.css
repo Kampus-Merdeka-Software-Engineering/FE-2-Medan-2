@@ -114,8 +114,12 @@ nav ul li a:hover {
   text-decoration: underline;
   text-decoration-color: #f0cd06;
   text-decoration-thickness: 2px;
-  color: #f0cd06;
-  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  color: var(--orange);
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(255, 235, 14, 0.75);
 }
 
 /* ! Home section */
