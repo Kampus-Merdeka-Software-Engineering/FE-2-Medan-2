@@ -368,6 +368,7 @@ textarea {
   font-size: 1.5rem;
   color: #666;
   padding: 1rem 0;
+  text-transform: none;
 }
 
 .services .box-container .box:hover {
@@ -438,6 +439,7 @@ textarea {
   font-size: 1.5rem;
   color: #eee;
   padding: 0.5rem 0;
+  text-transform: none;
 }
 
 /* ! Review section */
