@@ -849,14 +849,14 @@ footer {
   }
 
   .cards {
-    flex-direction: column;
+    flex-direction:row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
   .card {
-    margin: 70px 1%;
+    margin: 80px 60px;
   }
 
   .footer .footer-left,
@@ -873,7 +873,7 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 835px) {
   #menu-bar {
     display: block;
   }
