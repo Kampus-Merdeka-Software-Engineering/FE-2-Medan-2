@@ -55,6 +55,27 @@ document.addEventListener("DOMContentLoaded", function () {
       link.classList.add("active-link");
     }
   }
+
+  // Add scroll event listener
+  window.addEventListener("scroll", function () {
+    // Get all sections
+    const sections = document.querySelectorAll("section");
+
+    // Check which section is in the viewport
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) {
+        // Remove the 'active-link' class from all links
+        navLinks.forEach((link) => link.classList.remove("active-link"));
+
+        // Add the 'active-link' class to the link corresponding to the section in the viewport
+        const activeLink = document.querySelector(`.navbar li a[href=".${window.location.pathname}#${section.id}"]`);
+        if (activeLink) {
+          activeLink.classList.add("active-link");
+        }
+      }
+    });
+  });
 });
 
 // ! video button
