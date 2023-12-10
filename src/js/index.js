@@ -68,6 +68,10 @@ document.addEventListener("DOMContentLoaded", function () {
         // Remove the 'active-link' class from all links
         navLinks.forEach((link) => link.classList.remove("active-link"));
 
+        // Log the window.location.pathname and the constructed selector
+        console.log(window.location.pathname);
+        console.log(`.navbar li a[href=".${window.location.pathname}#${section.id}"]`);
+
         // Add the 'active-link' class to the link corresponding to the section in the viewport
         const activeLink = document.querySelector(`.navbar li a[href=".${window.location.pathname}#${section.id}"]`);
         if (activeLink) {
