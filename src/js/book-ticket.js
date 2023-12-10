@@ -112,9 +112,6 @@ document.querySelector("#bookTicketBtn").addEventListener("click", async functio
           icon: "success",
           title: "Booking Succcesfull",
           text: `Your ticket number is: ${response.ticketNumber}`,
-          customClass: {
-            content: 'swal-content'
-          }
         });
         window.location.href = `${BASE_URL}/src/pages/check-ticket.html`;
       } else {
