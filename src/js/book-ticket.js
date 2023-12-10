@@ -1,10 +1,10 @@
-// Define the API URL
+// ! Define the API URL
 const API_URL = "https://dull-jade-parrot-tam.cyclic.app";
 
-// Define the base URL for the application
+// ! Define the base URL for the application
 const BASE_URL = "https://kampus-merdeka-software-engineering.github.io/FE-2-Medan-2";
 
-// Function to handle the functionality of the menu bar icon
+// ! Function to handle the functionality of the menu bar icon
 function handleMenuBar() {
   const menuIcon = document.querySelector(".menu-icon");
 
@@ -28,7 +28,7 @@ function handleMenuBar() {
   });
 }
 
-// Function to handle the functionality of the active link in the navbar
+// ! Function to handle the functionality of the active link in the navbar
 function handleActiveLink() {
   document.addEventListener("DOMContentLoaded", () => {
     const bookTicketLink = document.querySelector('.navbar li a[href="./book-ticket.html"]');
@@ -43,7 +43,7 @@ function handleActiveLink() {
   });
 }
 
-// Function to initialize the international telephone input plugin on the phone input field
+// ! Function to initialize the international telephone input plugin on the phone input field
 function initializePhoneInput() {
   const phoneInputField = document.querySelector("#phone");
 
@@ -58,7 +58,7 @@ function initializePhoneInput() {
   });
 }
 
-// Async function to handle the booking ticket form submission
+// ! Async function to handle the booking ticket form submission
 async function bookTicketForm() {
   try {
     const formData = {
@@ -90,7 +90,7 @@ async function bookTicketForm() {
   }
 }
 
-// Async function to handle booking ticket
+// ! Async function to handle booking ticket
 async function handleBookTicket() {
   const bookTicketButton = document.querySelector("#bookTicketBtn");
 
@@ -141,7 +141,7 @@ async function handleBookTicket() {
   });
 }
 
-// Function to handle page loader
+// ! Function to handle page loader
 function handlePageLoader() {
   window.addEventListener("load", () => {
     const loader = document.querySelector(".loader");
@@ -160,7 +160,7 @@ function handlePageLoader() {
   });
 }
 
-// Call the functions
+// ! Call the functions
 handleMenuBar();
 handleActiveLink();
 initializePhoneInput();
