@@ -270,10 +270,6 @@ textarea {
   text-transform: none;
 }
 
-.swal-content {
-  text-transform: none !important;
-}
-
 /* ! Ticket section */
 
 .ticket-form {
