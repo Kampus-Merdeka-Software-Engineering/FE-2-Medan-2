@@ -272,7 +272,7 @@ textarea {
 }
 
 .swal-content {
-  text-transform: none;
+  text-transform: none !important;
 }
 
 /* ! Ticket section */
