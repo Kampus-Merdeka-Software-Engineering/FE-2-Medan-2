@@ -1,4 +1,4 @@
-// Handles the functionality of the menu bar icon
+// ! Handles the functionality of the menu bar icon
 function handleMenuBar() {
   const menuIcon = document.querySelector(".menu-icon");
 
@@ -9,7 +9,7 @@ function handleMenuBar() {
   });
 }
 
-// Handles the functionality of the active link in the navbar
+// ! Handles the functionality of the active link in the navbar
 function handleActiveLink() {
   document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll(".navbar li a");
@@ -21,7 +21,7 @@ function handleActiveLink() {
   });
 }
 
-// Handles the functionality of the page loader
+// ! Handles the functionality of the page loader
 function handlePageLoader() {
   window.addEventListener("load", () => {
     const loader = document.querySelector(".loader");
@@ -33,7 +33,7 @@ function handlePageLoader() {
   });
 }
 
-// Call the functions
+// ! Call the functions
 handleMenuBar();
 handleActiveLink();
 handlePageLoader();
