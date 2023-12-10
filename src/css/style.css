@@ -958,6 +958,10 @@ footer {
     margin-right: 20px;
   }
 
+  .loader-text {
+    font-size: 20px;
+  }
+
   footer {
     position: absolute;
   }
