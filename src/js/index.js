@@ -21,27 +21,31 @@ menu.addEventListener("click", () => {
 // ! active-link navbar
 
 // Wait for the DOM content to load
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   // Select all navigation links
   const navLinks = document.querySelectorAll(".navbar li a");
 
+  // Helper function to remove 'active-link' class from all links
+  const removeActiveClass = () => navLinks.forEach((link) => link.classList.remove("active-link"));
+
+  // Helper function to add 'active-link' class to a specific link
+  const addActiveClass = (link) => link.classList.add("active-link");
+
   // Add click event listeners to each link
   navLinks.forEach((link) => {
-    link.addEventListener("click", function (event) {
+    link.addEventListener("click", (event) => {
       // Prevent the default link click behavior
       event.preventDefault();
 
-      // Remove the 'active-link' class from all links
-      navLinks.forEach((link) => link.classList.remove("active-link"));
+      // Remove 'active-link' class from all links and add it to the clicked link
+      removeActiveClass();
+      addActiveClass(link);
 
-      // Add the 'active-link' class to the clicked link
-      this.classList.add("active-link");
-
-      // Store the href of the clicked link in local storage
-      localStorage.setItem("activeLink", this.href);
+      // Store the href of the clicked link in local storage to persist the active link across page reloads
+      localStorage.setItem("activeLink", link.href);
 
       // Navigate to the clicked link
-      window.location.href = this.href;
+      window.location.href = link.href;
     });
   });
 
@@ -52,30 +56,28 @@ document.addEventListener("DOMContentLoaded", function () {
   if (activeLink) {
     const link = document.querySelector(`.navbar li a[href="${activeLink}"]`);
     if (link) {
-      link.classList.add("active-link");
+      addActiveClass(link);
     }
   }
 
   // Add scroll event listener
-  window.addEventListener("scroll", function () {
+  window.addEventListener("scroll", () => {
     // Get all sections
     const sections = document.querySelectorAll("section");
 
     // Check which section is in the viewport
     sections.forEach((section) => {
       const rect = section.getBoundingClientRect();
+
+      // Check if the section is in the viewport
       if (rect.top < window.innerHeight && rect.bottom >= 0) {
-        // Remove the 'active-link' class from all links
-        navLinks.forEach((link) => link.classList.remove("active-link"));
+        // Remove 'active-link' class from all links
+        removeActiveClass();
 
-        // Log the window.location.pathname and the constructed selector
-        console.log(window.location.pathname);
-        console.log(`.navbar li a[href=".${window.location.pathname}#${section.id}"]`);
-
-        // Add the 'active-link' class to the link corresponding to the section in the viewport
-        const activeLink = document.querySelector(`.navbar li a[href=".${window.location.pathname}#${section.id}"]`);
+        // Add 'active-link' class to the link corresponding to the section in the viewport
+        const activeLink = document.querySelector(`.navbar li a[href="#${section.id}"]`);
         if (activeLink) {
-          activeLink.classList.add("active-link");
+          addActiveClass(activeLink);
         }
       }
     });
