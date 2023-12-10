@@ -832,15 +832,20 @@ footer {
 
 /* ! Media queries */
 
-@media (max-width: 1200px) {
-  /* html{
-        font-size: 55%;
-    } */
-}
-
-@media (max-width: 991px) {
+@media (max-width: 1280px) {
   section {
     padding: 2rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 70px 1%;
   }
 
   .footer .footer-left,
