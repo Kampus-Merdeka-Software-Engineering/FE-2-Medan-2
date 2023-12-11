@@ -37,6 +37,7 @@
 - [Link to WanToGo Final Project 👩‍💻](#link-to-wantogo-final-project-)
 - [Team 2 Section Medan 💡](#team-2-section-medan-)
 - [Contribution 🖇️](#contribution-️)
+- [Acknowledgments 🙏](#acknowledgments-)
 - [End 👋](#end-)
 - [](#)
 
@@ -139,6 +140,22 @@ WanToGo is a project built with concentration and great hope by Group 2 Section 
 The project was finalized on 11 December 2023 and closed for contributions.
 
 <br>
+
+## Acknowledgments 🙏
+
+We want to express our deepest appreciation to our instructors and mentor who have lectured and guided us to succeed in our project.
+
+Our Instructors:
+
+1. [Mustofa Ghaleb Amami](https://github.com/cakasuma)
+2. [Rafly Lesmana](https://github.com/RaflyLesmana3003)
+3. [Aji Lantang Mardika](https://github.com/ajilantang)
+
+Our Mentor:
+
+[Ari Yuhendra](https://github.com/myndra1805)
+
+We also want to give a hat tip to anyone whose code was used as inspiration for this project.
 
 ## End 👋
 
