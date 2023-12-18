@@ -983,7 +983,7 @@ footer {
 
 @keyframes loading {
   from {
-    transgorm: rotate(0turn);
+    transform: rotate(0turn);
   }
   to {
     transform: rotate(1turn);
